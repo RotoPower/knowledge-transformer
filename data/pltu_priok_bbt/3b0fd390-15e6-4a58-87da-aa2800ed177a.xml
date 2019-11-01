@@ -1,0 +1,3421 @@
+<?xml version="1.0"?>
+<TanDeltaTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="3b0fd390-15e6-4a58-87da-aa2800ed177a" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-04-07T07:23:19</Created>
+  <CreatedBy>LAPTOP-5KD6C6FJ\hp</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T09:08:15.0722637Z</LastModified>
+  <LastModifiedBy>LAPTOP-5KD6C6FJ\hp</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>dbd904c0-71dc-4cac-a700-74c8c5393002</TestId>
+  <TestIndex>3</TestIndex>
+  <Comment />
+  <AssetId>2d271f12-4fcc-4f56-b380-aa2400e4ecae</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-04-08T04:22:31</ExecutionDate>
+  <Name>Winding DF &amp; CAP</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>1</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>true</AutomaticAssessmentActive>
+  <MetaData>
+  &lt;Assessment&gt;
+    &lt;Profiles&gt;TanDeltaTransformerOverall;&lt;/Profiles&gt;
+    &lt;ActiveProfiles&gt;TanDeltaTransformerOverall;&lt;/ActiveProfiles&gt;
+    &lt;LimitKey&gt;Oil&lt;/LimitKey&gt;
+  &lt;/Assessment&gt;
+</MetaData>
+  <UseJobConditions>false</UseJobConditions>
+  <AmbientTemperature unit="C">31</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Clear</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">69</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>Pass</Assessment>
+  <ResultState>All</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <TanDeltaId>dbd904c0-71dc-4cac-a700-74c8c5393002</TanDeltaId>
+  <TestVoltage unit="V">100</TestVoltage>
+  <TestFrequency unit="Hz">50</TestFrequency>
+  <CorrectionTemperatureSource>Winding</CorrectionTemperatureSource>
+  <CorrectionFactor>1</CorrectionFactor>
+  <PerformTemperatureCorrection>true</PerformTemperatureCorrection>
+  <UseReferenceVoltage>true</UseReferenceVoltage>
+  <UseHvShield xsi:nil="true" />
+  <ReferenceVoltage unit="V">10000</ReferenceVoltage>
+  <Averaging>5</Averaging>
+  <Bandwidth>_5Hz</Bandwidth>
+  <UseBeeper>true</UseBeeper>
+  <PerformShieldCheck>true</PerformShieldCheck>
+  <MeasurementListType>NullValue</MeasurementListType>
+  <AverageOilTemperature unit="C">NaN</AverageOilTemperature>
+  <BottomOilTemperature unit="C">NaN</BottomOilTemperature>
+  <CorrectionTemperature unit="C">34</CorrectionTemperature>
+  <TopOilTemperature unit="C">NaN</TopOilTemperature>
+  <InstrumentTransformerOilTemperature unit="C">NaN</InstrumentTransformerOilTemperature>
+  <TestInstrumentTransformerOilTemperature unit="C">NaN</TestInstrumentTransformerOilTemperature>
+  <JobInstrumentTransformerOilTemperature unit="C">NaN</JobInstrumentTransformerOilTemperature>
+  <TestTopOilTemperature unit="C">NaN</TestTopOilTemperature>
+  <TestBottomOilTemperature unit="C">NaN</TestBottomOilTemperature>
+  <JobTopOilTemperature unit="C">NaN</JobTopOilTemperature>
+  <JobBottomOilTemperature unit="C">NaN</JobBottomOilTemperature>
+  <OilTemperature unit="C">NaN</OilTemperature>
+  <WindingTemperature unit="C">34</WindingTemperature>
+  <TestWindingTemperature unit="C">34</TestWindingTemperature>
+  <JobWindingTemperature unit="C">NaN</JobWindingTemperature>
+  <TestObjectTemperature unit="C">NaN</TestObjectTemperature>
+  <PerformInvertedC1Test xsi:nil="true" />
+  <FrequencySweeps>PtmDefault</FrequencySweeps>
+  <VoltageSweeps>PtmDefault</VoltageSweeps>
+  <SweepProfileCollectionId>2f2c2649-6a4c-4727-9700-b5d862959d20</SweepProfileCollectionId>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories>
+      <Accessory>
+        <Name>CP TD1</Name>
+        <SerialNumber>ML111U</SerialNumber>
+        <CalibrationDate>Not available</CalibrationDate>
+      </Accessory>
+    </Accessories>
+    <CPTD1Connected>true</CPTD1Connected>
+    <CPSB1Connected>false</CPSB1Connected>
+    <CPTD1SerialNumber>ML111U</CPTD1SerialNumber>
+    <CPTD1CalibrationDate>Not available</CPTD1CalibrationDate>
+  </TestSetInfo>
+  <PerformBushingCompensation>false</PerformBushingCompensation>
+  <ResultType>PfAndCapAndWattLosses</ResultType>
+  <AssessedBushingInsulationType>NullValue</AssessedBushingInsulationType>
+  <AssessedHighestRatedVoltageLL unit="V">15750</AssessedHighestRatedVoltageLL>
+  <AssessedTransformerInsulationMedium>Oil</AssessedTransformerInsulationMedium>
+  <MeasurementRecreationHash>kjCOaNkxYjeT/cqQQ8+EK0DA7Mc=</MeasurementRecreationHash>
+  <UseNoiseSuppression>true</UseNoiseSuppression>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <Measurements>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T03:44:28</MeasuredDate>
+      <MeasurementType>Measurement</MeasurementType>
+      <TransformerWinding>Primary</TransformerWinding>
+      <TransformerOverallCapacitance>IchAndIchl</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">9000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.038046931</CurrentMeasured>
+          <CurrentCorrected unit="A">0.042269671147650262</CurrentCorrected>
+          <VoltageOut unit="V">9001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.3451899059844507E-08</CapacitanceMeasured>
+          <WattLosses unit="W">1.1476156129184711</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.27149959093735493</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.27149959093736048</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>642.43990000000008</real>
+            <imag>-236626.4707</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>642.439900000013</real>
+            <imag>-236626.47069999998</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">342.45916376535456</ReactivePower>
+          <ApparentPower unit="VA">342.460425931</ApparentPower>
+          <Cp unit="Farad">1.3451899059844507E-08</Cp>
+          <Rp unit="Ohm">87156011.581726253</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">642.43990000000008</Rs>
+          <QualityFactor unit="">368.32468017630907</QualityFactor>
+          <ZPhase unit="°">-89.844442575211971</ZPhase>
+          <ZAbsolute unit="Ohm">236627.34280924313</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Gst</Mode>
+      <Name>ICH+ICHL</Name>
+      <OmicronName>1</OmicronName>
+      <OmicronNameSuffix />
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T03:47:39</MeasuredDate>
+      <MeasurementType>MeasurementVoltageSweep</MeasurementType>
+      <TransformerWinding>Primary</TransformerWinding>
+      <TransformerOverallCapacitance>Ich</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">1000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.00069441300000000006</CurrentMeasured>
+          <CurrentCorrected unit="A">0.0069441300000000006</CurrentCorrected>
+          <VoltageOut unit="V">1000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2079350526660691E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.14529806011669594</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.20923913892912227</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.20923913892912671</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>3016.5106</real>
+            <imag>-1441656.9555000002</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>3016.5106000000642</real>
+            <imag>-1441656.9555000004</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.69441147989961449</ReactivePower>
+          <ApparentPower unit="VA">0.69441300000000006</ApparentPower>
+          <Cp unit="Farad">2.2079350526660691E-09</Cp>
+          <Rp unit="Ohm">689002676.36312282</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">3016.5106</Rs>
+          <QualityFactor unit="">477.92205852019885</QualityFactor>
+          <ZPhase unit="°">-89.880114979260171</ZPhase>
+          <ZAbsolute unit="Ohm">1441660.1113569487</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.001389225</CurrentMeasured>
+          <CurrentCorrected unit="A">0.006946125</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2079946242717826E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.14475202844674992</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.20839294247972803</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.20839294247973061</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>3004.2304</real>
+            <imag>-1441618.1106</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>3004.2304000000377</real>
+            <imag>-1441618.1106</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">2.7784439669463223</ReactivePower>
+          <ApparentPower unit="VA">2.77845</ApparentPower>
+          <Cp unit="Farad">2.2079946242717826E-09</Cp>
+          <Rp unit="Ohm">691781762.88017392</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">3004.2304</Rs>
+          <QualityFactor unit="">479.86269981157238</QualityFactor>
+          <ZPhase unit="°">-89.880599811997982</ZPhase>
+          <ZAbsolute unit="Ohm">1441621.2408986662</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">4000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.00277875</CurrentMeasured>
+          <CurrentCorrected unit="A">0.006946875</CurrentCorrected>
+          <VoltageOut unit="V">4000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2080295351310655E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.15563575058505053</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.22403763012105124</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.22403763012106906</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>3229.7138</real>
+            <imag>-1441594.3421</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>3229.7138000002569</real>
+            <imag>-1441594.3421</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">11.114972105423224</ReactivePower>
+          <ApparentPower unit="VA">11.115</ApparentPower>
+          <Cp unit="Farad">2.2080295351310655E-09</Cp>
+          <Rp unit="Ohm">643464036.41894269</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">3229.7138</Rs>
+          <QualityFactor unit="">446.35358776991325</QualityFactor>
+          <ZPhase unit="°">-89.871636108184248</ZPhase>
+          <ZAbsolute unit="Ohm">1441597.9599825889</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">6000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.004168502</CurrentMeasured>
+          <CurrentCorrected unit="A">0.0069463456090651556</CurrentCorrected>
+          <VoltageOut unit="V">6001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2082559679558924E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.19437878651361071</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.27982994007384843</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.279829940073822</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>4033.5876000000003</real>
+            <imag>-1441442.47</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>4033.5875999996197</real>
+            <imag>-1441442.47</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">25.015082562145679</ReactivePower>
+          <ApparentPower unit="VA">25.015180502</ApparentPower>
+          <Cp unit="Farad">2.2082559679558924E-09</Cp>
+          <Rp unit="Ohm">515117773.60398161</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">4033.5876000000003</Rs>
+          <QualityFactor unit="">357.3599021377396</QualityFactor>
+          <ZPhase unit="°">-89.839669673010619</ZPhase>
+          <ZAbsolute unit="Ohm">1441448.1135818339</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">8000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.0055589980000000008</CurrentMeasured>
+          <CurrentCorrected unit="A">0.0069478790151231108</CurrentCorrected>
+          <VoltageOut unit="V">8001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2085740001120524E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.25528434573271236</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.36743021633497847</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.36743021633497241</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>5295.5025000000005</real>
+            <imag>-1441226.7322</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>5295.5024999999132</real>
+            <imag>-1441226.7322</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">44.477242766585668</ReactivePower>
+          <ApparentPower unit="VA">44.477542998000004</ApparentPower>
+          <Cp unit="Farad">2.2085740001120524E-09</Cp>
+          <Rp unit="Ohm">392250317.31259078</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">5295.5025000000005</Rs>
+          <QualityFactor unit="">272.16052342530287</QualityFactor>
+          <ZPhase unit="°">-89.789478940760461</ZPhase>
+          <ZAbsolute unit="Ohm">1441236.4608053106</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">9000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.00625371</CurrentMeasured>
+          <CurrentCorrected unit="A">0.006948566666666667</CurrentCorrected>
+          <VoltageOut unit="V">9000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.208767410018963E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.28572882768928809</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.41120889691325646</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.41120889691327617</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>5925.9134</real>
+            <imag>-1441095.6194</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>5925.9134000002841</real>
+            <imag>-1441095.6194</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">56.282914150355552</ReactivePower>
+          <ApparentPower unit="VA">56.28339</ApparentPower>
+          <Cp unit="Farad">2.208767410018963E-09</Cp>
+          <Rp unit="Ohm">350459340.27714509</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">5925.9134</Rs>
+          <QualityFactor unit="">243.18539980688882</QualityFactor>
+          <ZPhase unit="°">-89.764395985044828</ZPhase>
+          <ZAbsolute unit="Ohm">1441107.803290057</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>GstGa</Mode>
+      <Name>ICH</Name>
+      <OmicronName>2</OmicronName>
+      <OmicronNameSuffix>a</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T03:49:59</MeasuredDate>
+      <MeasurementType>MeasurementFrequencySweep</MeasurementType>
+      <TransformerWinding>Primary</TransformerWinding>
+      <TransformerOverallCapacitance>Ich</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">15</Frequency>
+          <CurrentMeasured unit="A">0.000417676</CurrentMeasured>
+          <CurrentCorrected unit="A">0.0020873363318340827</CurrentCorrected>
+          <VoltageOut unit="V">2001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2111754598890935E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.063678286041890436</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.30507101990040769</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.30507101990040303</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>14638.7023</real>
+            <imag>-4798457.1936</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>14638.702299999773</real>
+            <imag>-4798457.193599999</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.83576578684286407</ReactivePower>
+          <ApparentPower unit="VA">0.83576967600000007</ApparentPower>
+          <Cp unit="Farad">2.2111754598890935E-09</Cp>
+          <Rp unit="Ohm">1572913039.5948153</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">14638.7023</Rs>
+          <QualityFactor unit="">327.79252527049476</QualityFactor>
+          <ZPhase unit="°">-89.825207723332369</ZPhase>
+          <ZAbsolute unit="Ohm">4798479.5227672495</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">20</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">20</Frequency>
+          <CurrentMeasured unit="A">0.000556321</CurrentMeasured>
+          <CurrentCorrected unit="A">0.0027816050000000004</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2103137864596063E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.075895262407022393</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.2728480316637758</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.27284803166378929</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>9823.2183</real>
+            <imag>-3600252.5802</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>9823.2183000004861</real>
+            <imag>-3600252.5802</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">1.112637858433116</ReactivePower>
+          <ApparentPower unit="VA">1.1126420000000001</ApparentPower>
+          <Cp unit="Farad">2.2103137864596063E-09</Cp>
+          <Rp unit="Ohm">1319518180.3965945</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">9823.2183</Rs>
+          <QualityFactor unit="">366.504384840964</QualityFactor>
+          <ZPhase unit="°">-89.843669981309773</ZPhase>
+          <ZAbsolute unit="Ohm">3600265.9814039473</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">35</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">35</Frequency>
+          <CurrentMeasured unit="A">0.000972959</CurrentMeasured>
+          <CurrentCorrected unit="A">0.004864795</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2088059887572088E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.11063838915913328</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.22742720975290195</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.22742720975289671</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>4682.0354000000007</real>
+            <imag>-2058696.233</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>4682.0353999998924</real>
+            <imag>-2058696.2329999998</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">1.9459129675704798</ReactivePower>
+          <ApparentPower unit="VA">1.945918</ApparentPower>
+          <Cp unit="Farad">2.2088059887572088E-09</Cp>
+          <Rp unit="Ohm">905215731.86394036</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">4682.0354000000007</Rs>
+          <QualityFactor unit="">439.70112507051948</QualityFactor>
+          <ZPhase unit="°">-89.869694032008027</ZPhase>
+          <ZAbsolute unit="Ohm">2058701.5571043503</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.001389019</CurrentMeasured>
+          <CurrentCorrected unit="A">0.006945095</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2079695128994743E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.14357016844190154</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.20672211857173992</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.20672211857173869</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>2980.1776</real>
+            <imag>-1441634.6062</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>2980.1775999999822</real>
+            <imag>-1441634.6062</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">2.7780320641804646</ReactivePower>
+          <ApparentPower unit="VA">2.778038</ApparentPower>
+          <Cp unit="Farad">2.2079695128994743E-09</Cp>
+          <Rp unit="Ohm">697380994.76083469</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">2980.1776</Rs>
+          <QualityFactor unit="">483.74117240529557</QualityFactor>
+          <ZPhase unit="°">-89.881557119456247</ZPhase>
+          <ZAbsolute unit="Ohm">1441637.6865398451</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">135</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">135</Frequency>
+          <CurrentMeasured unit="A">0.003747574</CurrentMeasured>
+          <CurrentCorrected unit="A">0.01873787</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2057015553501881E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.3313427881774097</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.17683082773934661</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.17683082773935005</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>945.1402</real>
+            <imag>-534488.365</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>945.14020000001847</real>
+            <imag>-534488.365</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">7.4951362816852605</ReactivePower>
+          <ApparentPower unit="VA">7.495148</ApparentPower>
+          <Cp unit="Farad">2.2057015553501881E-09</Cp>
+          <Rp unit="Ohm">302260665.25407648</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">945.1402</Rs>
+          <QualityFactor unit="">565.51225416081127</QualityFactor>
+          <ZPhase unit="°">-89.898683504429883</ZPhase>
+          <ZAbsolute unit="Ohm">534489.20064896625</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">220</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">220</Frequency>
+          <CurrentMeasured unit="A">0.0061025440000000005</CurrentMeasured>
+          <CurrentCorrected unit="A">0.030512720000000004</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2047372528686565E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.5346805650570684</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.17523229196248036</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.17523229196250975</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>574.9809</real>
+            <imag>-328124.9669</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>574.98090000009643</real>
+            <imag>-328124.9669</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">12.205069261354211</ReactivePower>
+          <ApparentPower unit="VA">12.205088000000002</ApparentPower>
+          <Cp unit="Farad">2.2047372528686565E-09</Cp>
+          <Rp unit="Ohm">187252001.77286142</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">574.9809</Rs>
+          <QualityFactor unit="">570.6710725521491</QualityFactor>
+          <ZPhase unit="°">-89.899599395125918</ZPhase>
+          <ZAbsolute unit="Ohm">328125.470675718</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">305</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">305</Frequency>
+          <CurrentMeasured unit="A">0.0084623090000000012</CurrentMeasured>
+          <CurrentCorrected unit="A">0.042290399800099951</CurrentCorrected>
+          <VoltageOut unit="V">2001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2041208206757767E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.77235486969868272</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.18263155737843356</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.18263155737842762</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>432.37370000000004</real>
+            <imag>-236746.43430000002</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>432.373699999986</real>
+            <imag>-236746.43430000002</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">16.933052069530682</ReactivePower>
+          <ApparentPower unit="VA">16.933080309</ApparentPower>
+          <Cp unit="Farad">2.2041208206757767E-09</Cp>
+          <Rp unit="Ohm">129631060.12410253</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">432.37370000000004</Rs>
+          <QualityFactor unit="">547.5504969428066</QualityFactor>
+          <ZPhase unit="°">-89.895359941902868</ZPhase>
+          <ZAbsolute unit="Ohm">236746.8291250818</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">400</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">400</Frequency>
+          <CurrentMeasured unit="A">0.011059733</CurrentMeasured>
+          <CurrentCorrected unit="A">0.055465060180541627</CurrentCorrected>
+          <VoltageOut unit="V">1994</VoltageOut>
+          <CapacitanceMeasured unit="Farad">2.2034538627275041E-09</CapacitanceMeasured>
+          <WattLosses unit="W">1.0350482320997072</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.18661298319624997</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.18661298319626163</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>336.9741</real>
+            <imag>-180573.7705</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>336.974100000021</real>
+            <imag>-180573.77049999998</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">22.053069202782211</ReactivePower>
+          <ApparentPower unit="VA">22.053107602</ApparentPower>
+          <Cp unit="Farad">2.2034538627275041E-09</Cp>
+          <Rp unit="Ohm">96764113.752750561</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">336.9741</Rs>
+          <QualityFactor unit="">535.86839611709036</QualityFactor>
+          <ZPhase unit="°">-89.8930787607206</ZPhase>
+          <ZAbsolute unit="Ohm">180574.08491843657</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>GstGa</Mode>
+      <Name>ICH</Name>
+      <OmicronName>2</OmicronName>
+      <OmicronNameSuffix>b</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T03:52:58</MeasuredDate>
+      <MeasurementType>MeasurementVoltageSweep</MeasurementType>
+      <TransformerWinding>Primary</TransformerWinding>
+      <TransformerOverallCapacitance>Ichl</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">1000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.003531499</CurrentMeasured>
+          <CurrentCorrected unit="A">0.03531499</CurrentCorrected>
+          <VoltageOut unit="V">1000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1242185827708992E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84378844807547726</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23893277518087963</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23893277518088929</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>676.5075</real>
+            <imag>-283137.1709</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>676.50750000002733</real>
+            <imag>-283137.1709</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">3.5314889195786088</ReactivePower>
+          <ApparentPower unit="VA">3.531499</ApparentPower>
+          <Cp unit="Farad">1.1242185827708992E-08</Cp>
+          <Rp unit="Ohm">118501443.38038141</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">676.5075</Rs>
+          <QualityFactor unit="">418.52776340247522</QualityFactor>
+          <ZPhase unit="°">-89.86310186445948</ZPhase>
+          <ZAbsolute unit="Ohm">283137.97909791861</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.0070641120000000009</CurrentMeasured>
+          <CurrentCorrected unit="A">0.03532056</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1242742730999145E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84492618785500584</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23921721665550039</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23921721665551032</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>677.2793</real>
+            <imag>-283123.142</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>677.27930000002812</real>
+            <imag>-283123.142</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">14.128183575879644</ReactivePower>
+          <ApparentPower unit="VA">14.128224000000001</ApparentPower>
+          <Cp unit="Farad">1.1242742730999145E-08</Cp>
+          <Rp unit="Ohm">118354676.1922332</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">677.2793</Rs>
+          <QualityFactor unit="">418.03011253998164</QualityFactor>
+          <ZPhase unit="°">-89.862938892430833</ZPhase>
+          <ZAbsolute unit="Ohm">283123.9520831863</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">4000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.014127938000000001</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035319845</CurrentCorrected>
+          <VoltageOut unit="V">4000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243119579438452E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84944431716661939</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24050127450802664</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.2405012745080527</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>680.89190000000008</real>
+            <imag>-283113.6348</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>680.89190000007386</real>
+            <imag>-283113.6348</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">56.511588566283613</ReactivePower>
+          <ApparentPower unit="VA">56.511752000000008</ApparentPower>
+          <Cp unit="Farad">1.1243119579438452E-08</Cp>
+          <Rp unit="Ohm">117718824.12383999</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">680.89190000000008</Rs>
+          <QualityFactor unit="">415.79821231534692</QualityFactor>
+          <ZPhase unit="°">-89.862203185707529</ZPhase>
+          <ZAbsolute unit="Ohm">283114.45357566478</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">6000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.021192892</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035321486666666672</CurrentCorrected>
+          <VoltageOut unit="V">6000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.124295068512883E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.85465578547606369</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24196554789114588</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24196554789114058</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>685.04770000000008</real>
+            <imag>-283117.8678</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>685.04769999998518</real>
+            <imag>-283117.8678</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">127.15697976548513</ReactivePower>
+          <ApparentPower unit="VA">127.157352</ApparentPower>
+          <Cp unit="Farad">1.124295068512883E-08</Cp>
+          <Rp unit="Ohm">117008197.17804988</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">685.04770000000008</Rs>
+          <QualityFactor unit="">413.28197700685655</QualityFactor>
+          <ZPhase unit="°">-89.861364223740722</ZPhase>
+          <ZAbsolute unit="Ohm">283118.69658849726</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">8000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.028256719000000003</CurrentMeasured>
+          <CurrentCorrected unit="A">0.03532089875</CurrentCorrected>
+          <VoltageOut unit="V">8000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243120988683262E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.85577846075299335</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24228742837297274</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24228742837296172</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>685.9486</real>
+            <imag>-283113.5749</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>685.94859999996891</real>
+            <imag>-283113.5749</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">226.05308849901374</ReactivePower>
+          <ApparentPower unit="VA">226.05375200000003</ApparentPower>
+          <Cp unit="Farad">1.1243120988683262E-08</Cp>
+          <Rp unit="Ohm">116850980.98915829</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">685.9486</Rs>
+          <QualityFactor unit="">412.73292911451381</QualityFactor>
+          <ZPhase unit="°">-89.861179800890739</ZPhase>
+          <ZAbsolute unit="Ohm">283114.4058823919</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">9000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.031792279</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035320829907788023</CurrentCorrected>
+          <VoltageOut unit="V">9001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243218348166709E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.85696218701130211</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24262303902231028</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24262303902231608</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>686.89280000000008</real>
+            <imag>-283111.1187</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>686.89280000001668</real>
+            <imag>-283111.11870000005</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">286.16146102208319</ReactivePower>
+          <ApparentPower unit="VA">286.162303279</ApparentPower>
+          <Cp unit="Farad">1.1243218348166709E-08</Cp>
+          <Rp unit="Ohm">116688335.28795785</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">686.89280000000008</Rs>
+          <QualityFactor unit="">412.16201232564958</QualityFactor>
+          <ZPhase unit="°">-89.86098751128344</ZPhase>
+          <ZAbsolute unit="Ohm">283111.95197886683</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>UstA</Mode>
+      <Name>ICHL</Name>
+      <OmicronName>3</OmicronName>
+      <OmicronNameSuffix>a</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T03:55:15</MeasuredDate>
+      <MeasurementType>MeasurementFrequencySweep</MeasurementType>
+      <TransformerWinding>Primary</TransformerWinding>
+      <TransformerOverallCapacitance>Ichl</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">15</Frequency>
+          <CurrentMeasured unit="A">0.002116511</CurrentMeasured>
+          <CurrentCorrected unit="A">0.010614398194583752</CurrentCorrected>
+          <VoltageOut unit="V">1994</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1259616590379423E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.26495598605632248</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24962019199900337</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24962019199900989</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>2352.2435</real>
+            <imag>-942329.01640000008</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>2352.2435000000614</real>
+            <imag>-942329.01640000008</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">4.2203097855946483</ReactivePower>
+          <ApparentPower unit="VA">4.220322934</ApparentPower>
+          <Cp unit="Farad">1.1259616590379423E-08</Cp>
+          <Rp unit="Ohm">377507476.67019796</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">2352.2435</Rs>
+          <QualityFactor unit="">400.60861743267651</QualityFactor>
+          <ZPhase unit="°">-89.856978462228511</ZPhase>
+          <ZAbsolute unit="Ohm">942331.95223279728</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">20</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">20</Frequency>
+          <CurrentMeasured unit="A">0.002829547</CurrentMeasured>
+          <CurrentCorrected unit="A">0.014140664667666166</CurrentCorrected>
+          <VoltageOut unit="V">2001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1255529449239791E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.340784106514244</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24099651900915225</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24099651900913602</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1703.8543000000002</real>
+            <imag>-707003.69740000006</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1703.8542999998861</real>
+            <imag>-707003.69740000018</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">5.6619071050375291</ReactivePower>
+          <ApparentPower unit="VA">5.661923547</ApparentPower>
+          <Cp unit="Farad">1.1255529449239791E-08</Cp>
+          <Rp unit="Ohm">293368471.26937234</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1703.8543000000002</Rs>
+          <QualityFactor unit="">414.94375276101954</QualityFactor>
+          <ZPhase unit="°">-89.861919433154767</ZPhase>
+          <ZAbsolute unit="Ohm">707005.750511795</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">35</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">35</Frequency>
+          <CurrentMeasured unit="A">0.0049471290000000006</CurrentMeasured>
+          <CurrentCorrected unit="A">0.024735645000000004</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1247711361348045E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.58357443072877169</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23592514156544156</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.2359251415654505</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>953.8053000000001</real>
+            <imag>-404283.02540000004</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>953.80530000003625</real>
+            <imag>-404283.02540000004</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">9.89423046406228</ReactivePower>
+          <ApparentPower unit="VA">9.894258</ApparentPower>
+          <Cp unit="Farad">1.1247711361348045E-08</Cp>
+          <Rp unit="Ohm">171361675.56536683</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">953.8053000000001</Rs>
+          <QualityFactor unit="">423.86326161114852</QualityFactor>
+          <ZPhase unit="°">-89.864825101869883</ZPhase>
+          <ZAbsolute unit="Ohm">404284.15053168655</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.007064955</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035324775</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1242973135636496E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84434798761221175</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.239024990141676</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23902499014166739</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>676.72120000000007</real>
+            <imag>-283117.3425</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>676.72119999997585</real>
+            <imag>-283117.3425</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">14.12986963600377</ReactivePower>
+          <ApparentPower unit="VA">14.12991</ApparentPower>
+          <Cp unit="Farad">1.1242973135636496E-08</Cp>
+          <Rp unit="Ohm">118447430.90041342</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">676.72120000000007</Rs>
+          <QualityFactor unit="">418.36629693291712</QualityFactor>
+          <ZPhase unit="°">-89.863049029480621</ZPhase>
+          <ZAbsolute unit="Ohm">283118.15126523568</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">135</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">135</Frequency>
+          <CurrentMeasured unit="A">0.01904382</CurrentMeasured>
+          <CurrentCorrected unit="A">0.0952191</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1226764386918775E-08</CapacitanceMeasured>
+          <WattLosses unit="W">2.5312601018900325</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.2658362708685002</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.2658362708685002</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>279.15340000000003</real>
+            <imag>-105009.523</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>279.1534</real>
+            <imag>-105009.523</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">38.087505420088547</ReactivePower>
+          <ApparentPower unit="VA">38.08764</ApparentPower>
+          <Cp unit="Farad">1.1226764386918775E-08</Cp>
+          <Rp unit="Ohm">39501857.57117147</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">279.15340000000003</Rs>
+          <QualityFactor unit="">376.171391786738</QualityFactor>
+          <ZPhase unit="°">-89.847687395168961</ZPhase>
+          <ZAbsolute unit="Ohm">105009.89404483874</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">220</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">220</Frequency>
+          <CurrentMeasured unit="A">0.031011458000000002</CurrentMeasured>
+          <CurrentCorrected unit="A">0.15505729000000001</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1217498240911166E-08</CapacitanceMeasured>
+          <WattLosses unit="W">4.4267090972549585</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.28548977845766366</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.28548977845766932</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>184.1147</real>
+            <imag>-64490.820300000007</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>184.11470000000367</real>
+            <imag>-64490.820300000007</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">62.022663244475126</ReactivePower>
+          <ApparentPower unit="VA">62.022916</ApparentPower>
+          <Cp unit="Farad">1.1217498240911166E-08</Cp>
+          <Rp unit="Ohm">22589721.522451214</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">184.1147</Rs>
+          <QualityFactor unit="">350.27523766434734</QualityFactor>
+          <ZPhase unit="°">-89.836426850399334</ZPhase>
+          <ZAbsolute unit="Ohm">64491.083113789064</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">305</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">305</Frequency>
+          <CurrentMeasured unit="A">0.042975881</CurrentMeasured>
+          <CurrentCorrected unit="A">0.214879405</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1211187231621499E-08</CapacitanceMeasured>
+          <WattLosses unit="W">6.42729329578419</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.29911298608441123</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.29911298608443188</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>139.2195</real>
+            <imag>-46544.117600000005</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>139.21950000000962</real>
+            <imag>-46544.1176</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">85.951377503481979</ReactivePower>
+          <ApparentPower unit="VA">85.951762</ApparentPower>
+          <Cp unit="Farad">1.1211187231621499E-08</Cp>
+          <Rp unit="Ohm">15560853.653631927</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">139.2195</Rs>
+          <QualityFactor unit="">334.3218270429071</QualityFactor>
+          <ZPhase unit="°">-89.828621394096871</ZPhase>
+          <ZAbsolute unit="Ohm">46544.325811336123</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">400</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">400</Frequency>
+          <CurrentMeasured unit="A">0.056184734</CurrentMeasured>
+          <CurrentCorrected unit="A">0.28162773934837093</CurrentCorrected>
+          <VoltageOut unit="V">1995</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1205306426603335E-08</CapacitanceMeasured>
+          <WattLosses unit="W">8.7908605313065991</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.31214621750445565</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.31214621750443305</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>110.83840000000001</real>
+            <imag>-35508.4873</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>110.838399999992</real>
+            <imag>-35508.4873</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">112.08799826516127</ReactivePower>
+          <ApparentPower unit="VA">112.08854433</ApparentPower>
+          <Cp unit="Farad">1.1205306426603335E-08</Cp>
+          <Rp unit="Ohm">11375705.130037749</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">110.83840000000001</Rs>
+          <QualityFactor unit="">320.36268387129371</QualityFactor>
+          <ZPhase unit="°">-89.821153972322364</ZPhase>
+          <ZAbsolute unit="Ohm">35508.660288515195</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>UstA</Mode>
+      <Name>ICHL</Name>
+      <OmicronName>3</OmicronName>
+      <OmicronNameSuffix>b</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T04:11:48</MeasuredDate>
+      <MeasurementType>Measurement</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>IclAndIclh</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">3000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.016761612000000002</CurrentMeasured>
+          <CurrentCorrected unit="A">0.055853422192602475</CurrentCorrected>
+          <VoltageOut unit="V">3001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.7778031384740634E-08</CapacitanceMeasured>
+          <WattLosses unit="W">1.5885349123725896</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.28441253460712707</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.28441253460711874</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>509.2273</real>
+            <imag>-179045.3085</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>509.227299999985</real>
+            <imag>-179045.3085</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">50.301394167190736</ReactivePower>
+          <ApparentPower unit="VA">50.301597612000009</ApparentPower>
+          <Cp unit="Farad">1.7778031384740634E-08</Cp>
+          <Rp unit="Ohm">62953187.71853599</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">509.2273</Rs>
+          <QualityFactor unit="">351.60194376852934</QualityFactor>
+          <ZPhase unit="°">-89.837044060649177</ZPhase>
+          <ZAbsolute unit="Ohm">179046.032651671</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Gst</Mode>
+      <Name>ICL+ICLH</Name>
+      <OmicronName>4</OmicronName>
+      <OmicronNameSuffix />
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T04:14:55</MeasuredDate>
+      <MeasurementType>MeasurementVoltageSweep</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>Icl</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">500</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.001026748</CurrentMeasured>
+          <CurrentCorrected unit="A">0.02053496</CurrentCorrected>
+          <VoltageOut unit="V">500</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5346521194213589E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.73766290023570824</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.35922527227931123</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.3592252722793326</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1749.8021</real>
+            <imag>-487104.39800000004</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1749.802100000104</real>
+            <imag>-487104.39800000004</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.51337068767123339</ReactivePower>
+          <ApparentPower unit="VA">0.513374</ApparentPower>
+          <Cp unit="Farad">6.5346521194213589E-09</Cp>
+          <Rp unit="Ohm">135600338.09442315</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1749.8021</Rs>
+          <QualityFactor unit="">278.37685073071981</QualityFactor>
+          <ZPhase unit="°">-89.794179965356278</ZPhase>
+          <ZAbsolute unit="Ohm">487107.54085554</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">1000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.0020539340000000003</CurrentMeasured>
+          <CurrentCorrected unit="A">0.020539340000000003</CurrentCorrected>
+          <VoltageOut unit="V">1000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5346411434034555E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.73920829912337171</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.35990109056371844</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.35990109056370873</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1753.0969</real>
+            <imag>-487105.1925</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1753.0968999999527</real>
+            <imag>-487105.1925</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">2.0539206979494247</ReactivePower>
+          <ApparentPower unit="VA">2.0539340000000004</ApparentPower>
+          <Cp unit="Farad">6.5346411434034555E-09</Cp>
+          <Rp unit="Ohm">135345936.61605519</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1753.0969</Rs>
+          <QualityFactor unit="">277.8541177615453</QualityFactor>
+          <ZPhase unit="°">-89.793792755008226</ZPhase>
+          <ZAbsolute unit="Ohm">487108.34719721531</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">1500</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.003081092</CurrentMeasured>
+          <CurrentCorrected unit="A">0.020540613333333336</CurrentCorrected>
+          <VoltageOut unit="V">1500</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5347102810474754E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.73872647995554874</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.35964420606249747</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.35964420606249059</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1751.8271</real>
+            <imag>-487100.0479</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1751.8270999999665</real>
+            <imag>-487100.0479</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">4.62160811124308</ReactivePower>
+          <ApparentPower unit="VA">4.621638</ApparentPower>
+          <Cp unit="Farad">6.5347102810474754E-09</Cp>
+          <Rp unit="Ohm">135441177.70661879</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1751.8271</Rs>
+          <QualityFactor unit="">278.05258173024038</QualityFactor>
+          <ZPhase unit="°">-89.79393993708058</ZPhase>
+          <ZAbsolute unit="Ohm">487103.19806214637</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.004108681</CurrentMeasured>
+          <CurrentCorrected unit="A">0.020543405</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5346967313826935E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.73909653393129493</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.359775469202419</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.35977546920241388</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1752.4701</real>
+            <imag>-487101.0533</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1752.4700999999752</real>
+            <imag>-487101.0533</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">8.2173088184116381</ReactivePower>
+          <ApparentPower unit="VA">8.2173620000000014</ApparentPower>
+          <Cp unit="Farad">6.5346967313826935E-09</Cp>
+          <Rp unit="Ohm">135392043.08103222</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1752.4701</Rs>
+          <QualityFactor unit="">277.95113497228857</QualityFactor>
+          <ZPhase unit="°">-89.793864729814473</ZPhase>
+          <ZAbsolute unit="Ohm">487104.20576856128</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2500</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.00513449</CurrentMeasured>
+          <CurrentCorrected unit="A">0.02053796</CurrentCorrected>
+          <VoltageOut unit="V">2500</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5347473616954752E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.7397854450053829</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.36020629327114995</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.36020629327115866</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1754.555</real>
+            <imag>-487097.26420000003</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1754.5550000000426</real>
+            <imag>-487097.26420000003</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">12.836141726716065</ReactivePower>
+          <ApparentPower unit="VA">12.836225</ApparentPower>
+          <Cp unit="Farad">6.5347473616954752E-09</Cp>
+          <Rp unit="Ohm">135229059.93506768</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1754.555</Rs>
+          <QualityFactor unit="">277.61869203302263</QualityFactor>
+          <ZPhase unit="°">-89.79361788900485</ZPhase>
+          <ZAbsolute unit="Ohm">487100.42419851437</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">3000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.0061614910000000007</CurrentMeasured>
+          <CurrentCorrected unit="A">0.020538303333333337</CurrentCorrected>
+          <VoltageOut unit="V">3000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5349537421208131E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.73990184072525889</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.36025694533361446</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.36025694533360486</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1754.7463</real>
+            <imag>-487081.87940000003</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1754.7462999999534</real>
+            <imag>-487081.87940000003</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">18.484353050739546</ReactivePower>
+          <ApparentPower unit="VA">18.484473</ApparentPower>
+          <Cp unit="Farad">6.5349537421208131E-09</Cp>
+          <Rp unit="Ohm">135205776.68373689</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1754.7463</Rs>
+          <QualityFactor unit="">277.57965889428004</QualityFactor>
+          <ZPhase unit="°">-89.793588867887422</ZPhase>
+          <ZAbsolute unit="Ohm">487085.04018745385</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>GstGa</Mode>
+      <Name>ICL</Name>
+      <OmicronName>5</OmicronName>
+      <OmicronNameSuffix>a</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T04:17:10</MeasuredDate>
+      <MeasurementType>MeasurementFrequencySweep</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>Icl</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">15</Frequency>
+          <CurrentMeasured unit="A">0.001231316</CurrentMeasured>
+          <CurrentCorrected unit="A">0.0061751053159478436</CurrentCorrected>
+          <VoltageOut unit="V">1994</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.550136404318171E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.32982633854307275</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.53413023183540065</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.53413023183536756</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>8651.936</real>
+            <imag>-1619817.6932</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>8651.9359999994649</real>
+            <imag>-1619817.6932000003</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">2.4552090812932152</ReactivePower>
+          <ApparentPower unit="VA">2.455244104</ApparentPower>
+          <Cp unit="Farad">6.550136404318171E-09</Cp>
+          <Rp unit="Ohm">303271338.94660312</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">8651.936</Rs>
+          <QualityFactor unit="">187.22025835604887</QualityFactor>
+          <ZPhase unit="°">-89.69396883033923</ZPhase>
+          <ZAbsolute unit="Ohm">1619840.7993381072</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">20</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">20</Frequency>
+          <CurrentMeasured unit="A">0.001646223</CurrentMeasured>
+          <CurrentCorrected unit="A">0.008231115</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5461847979676467E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.3899049534968867</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.47370171365066782</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.47370171365066543</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>5758.3371000000006</real>
+            <imag>-1215604.0255</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>5758.3370999999725</real>
+            <imag>-1215604.0255</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">3.2924090604782967</ReactivePower>
+          <ApparentPower unit="VA">3.292446</ApparentPower>
+          <Cp unit="Farad">6.5461847979676467E-09</Cp>
+          <Rp unit="Ohm">256623792.5282217</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">5758.3371000000006</Rs>
+          <QualityFactor unit="">211.10331062417305</QualityFactor>
+          <ZPhase unit="°">-89.728590940664148</ZPhase>
+          <ZAbsolute unit="Ohm">1215617.6640942504</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">35</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">35</Frequency>
+          <CurrentMeasured unit="A">0.0028767890000000003</CurrentMeasured>
+          <CurrentCorrected unit="A">0.014383945000000002</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5391724211292851E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.56387326564303575</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.39201873922047731</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.3920187392204868</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>2726.0226000000002</real>
+            <imag>-695380.68650000007</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>2726.0226000000657</real>
+            <imag>-695380.6865</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">5.7535337903925159</ReactivePower>
+          <ApparentPower unit="VA">5.753578</ApparentPower>
+          <Cp unit="Farad">6.5391724211292851E-09</Cp>
+          <Rp unit="Ohm">177387278.5781112</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">2726.0226000000002</Rs>
+          <QualityFactor unit="">255.08984646715695</QualityFactor>
+          <ZPhase unit="°">-89.775390958109014</ZPhase>
+          <ZAbsolute unit="Ohm">695386.02973918524</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.004107534</CurrentMeasured>
+          <CurrentCorrected unit="A">0.02053767</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.535046815949596E-09</CapacitanceMeasured>
+          <WattLosses unit="W">0.74055485115782715</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.36058601855691852</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.3605860185569098</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1756.3241</real>
+            <imag>-487074.9307</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1756.3240999999578</real>
+            <imag>-487074.9307</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">8.21501459342854</ReactivePower>
+          <ApparentPower unit="VA">8.215068</ApparentPower>
+          <Cp unit="Farad">6.535046815949596E-09</Cp>
+          <Rp unit="Ohm">135080463.10516039</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1756.3241</Rs>
+          <QualityFactor unit="">277.32633783252192</QualityFactor>
+          <ZPhase unit="°">-89.7934003252682</ZPhase>
+          <ZAbsolute unit="Ohm">487078.09721927968</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">135</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">135</Frequency>
+          <CurrentMeasured unit="A">0.011073959000000001</CurrentMeasured>
+          <CurrentCorrected unit="A">0.055369795000000006</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5243197218823951E-09</CapacitanceMeasured>
+          <WattLosses unit="W">1.8464147369594239</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.333471526000335</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.33347152600035118</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>602.5666</real>
+            <imag>-180695.06780000002</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>602.56660000002921</real>
+            <imag>-180695.06780000002</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">22.147794854994363</ReactivePower>
+          <ApparentPower unit="VA">22.147918000000004</ApparentPower>
+          <Cp unit="Farad">6.5243197218823951E-09</Cp>
+          <Rp unit="Ohm">54186658.559824</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">602.5666</Rs>
+          <QualityFactor unit="">299.87567814080637</QualityFactor>
+          <ZPhase unit="°">-89.808935597954644</ZPhase>
+          <ZAbsolute unit="Ohm">180696.072491225</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">220</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">220</Frequency>
+          <CurrentMeasured unit="A">0.018028437</CurrentMeasured>
+          <CurrentCorrected unit="A">0.090142185000000014</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5182571402009969E-09</CapacitanceMeasured>
+          <WattLosses unit="W">3.105839051921365</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.34455094331314129</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.34455094331311681</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>382.39680000000004</real>
+            <imag>-110984.1106</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>382.39679999997293</real>
+            <imag>-110984.11060000001</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">36.056659976680166</ReactivePower>
+          <ApparentPower unit="VA">36.056874</ApparentPower>
+          <Cp unit="Farad">6.5182571402009969E-09</Cp>
+          <Rp unit="Ohm">32211616.39685709</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">382.39680000000004</Rs>
+          <QualityFactor unit="">290.23284347567761</QualityFactor>
+          <ZPhase unit="°">-89.802587632402563</ZPhase>
+          <ZAbsolute unit="Ohm">110984.76937393565</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">305</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">305</Frequency>
+          <CurrentMeasured unit="A">0.024952705000000002</CurrentMeasured>
+          <CurrentCorrected unit="A">0.12488841341341342</CurrentCorrected>
+          <VoltageOut unit="V">1998</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5141216850995766E-09</CapacitanceMeasured>
+          <WattLosses unit="W">4.4781546011733733</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.35857476829229162</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.35857476829230128</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>287.23580000000004</real>
+            <imag>-80104.8555</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>287.23580000000777</real>
+            <imag>-80104.8555</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">49.855184082360687</ReactivePower>
+          <ApparentPower unit="VA">49.85550459</ApparentPower>
+          <Cp unit="Farad">6.5141216850995766E-09</Cp>
+          <Rp unit="Ohm">22340078.705651186</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">287.23580000000004</Rs>
+          <QualityFactor unit="">278.8818646561466</QualityFactor>
+          <ZPhase unit="°">-89.794552671885612</ZPhase>
+          <ZAbsolute unit="Ohm">80105.370475896823</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">400</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">400</Frequency>
+          <CurrentMeasured unit="A">0.032640099</CurrentMeasured>
+          <CurrentCorrected unit="A">0.16369156970912738</CurrentCorrected>
+          <VoltageOut unit="V">1994</VoltageOut>
+          <CapacitanceMeasured unit="Farad">6.5104006835665835E-09</CapacitanceMeasured>
+          <WattLosses unit="W">6.0826399696714422</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.37159408853739884</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.371594088537389</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>227.09900000000002</real>
+            <imag>-61114.8043</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>227.09899999999405</real>
+            <imag>-61114.8043</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">65.083908061199239</ReactivePower>
+          <ApparentPower unit="VA">65.084357406</ApparentPower>
+          <Cp unit="Farad">6.5104006835665835E-09</Cp>
+          <Rp unit="Ohm">16446883.863791119</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">227.09900000000002</Rs>
+          <QualityFactor unit="">269.11084725163914</QualityFactor>
+          <ZPhase unit="°">-89.78709325029854</ZPhase>
+          <ZAbsolute unit="Ohm">61115.226241773009</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>GstGa</Mode>
+      <Name>ICL</Name>
+      <OmicronName>5</OmicronName>
+      <OmicronNameSuffix>b</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T04:20:13</MeasuredDate>
+      <MeasurementType>MeasurementVoltageSweep</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>Iclh</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">500</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.0017657950000000001</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035315900000000004</CurrentCorrected>
+          <VoltageOut unit="V">500</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1241930025897597E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84456081356665658</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23914532225012181</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23914532225013013</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>677.12470000000008</real>
+            <imag>-283143.6106</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>677.12470000002361</real>
+            <imag>-283143.6106</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.88289497534401074</ReactivePower>
+          <ApparentPower unit="VA">0.88289750000000011</ApparentPower>
+          <Cp unit="Farad">1.1241930025897597E-08</Cp>
+          <Rp unit="Ohm">118398815.93665655</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">677.12470000000008</Rs>
+          <QualityFactor unit="">418.15578518993618</QualityFactor>
+          <ZPhase unit="°">-89.862980084655163</ZPhase>
+          <ZAbsolute unit="Ohm">283144.42025486531</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">1000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.003532935</CurrentMeasured>
+          <CurrentCorrected unit="A">0.03532935</CurrentCorrected>
+          <VoltageOut unit="V">1000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1241804419357366E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84276945264303271</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23854722787715041</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23854722787714266</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>675.4388</real>
+            <imag>-283146.7823</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>675.43879999997807</real>
+            <imag>-283146.7823</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">3.5329249479984672</ReactivePower>
+          <ApparentPower unit="VA">3.532935</ApparentPower>
+          <Cp unit="Farad">1.1241804419357366E-08</Cp>
+          <Rp unit="Ohm">118696996.00380693</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">675.4388</Rs>
+          <QualityFactor unit="">419.20420073587718</QualityFactor>
+          <ZPhase unit="°">-89.863322765533482</ZPhase>
+          <ZAbsolute unit="Ohm">283147.58791912062</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">1500</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.005297981</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035319873333333335</CurrentCorrected>
+          <VoltageOut unit="V">1500</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1241937014925419E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84187934494741457</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.2383592173653469</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23835921736535221</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>674.8985</real>
+            <imag>-283143.4452</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>674.89850000001513</real>
+            <imag>-283143.44520000007</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">7.9469489246906155</ReactivePower>
+          <ApparentPower unit="VA">7.9469715</ApparentPower>
+          <Cp unit="Farad">1.1241937014925419E-08</Cp>
+          <Rp unit="Ohm">118789219.4866498</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">674.8985</Rs>
+          <QualityFactor unit="">419.53485627838853</QualityFactor>
+          <ZPhase unit="°">-89.863430487009282</ZPhase>
+          <ZAbsolute unit="Ohm">283144.24954024889</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.0070634400000000007</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035317200000000007</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1242515016240531E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.844324003925569</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23906946664959527</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23906946664958936</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>676.87470000000008</real>
+            <imag>-283128.8786</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>676.87469999998336</real>
+            <imag>-283128.8786</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">14.126839629639825</ReactivePower>
+          <ApparentPower unit="VA">14.126880000000002</ApparentPower>
+          <Cp unit="Farad">1.1242515016240531E-08</Cp>
+          <Rp unit="Ohm">118430220.6252546</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">676.87470000000008</Rs>
+          <QualityFactor unit="">418.28846402443463</QualityFactor>
+          <ZPhase unit="°">-89.863023546464319</ZPhase>
+          <ZAbsolute unit="Ohm">283129.68769921147</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2500</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.008830104</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035320416</CurrentCorrected>
+          <VoltageOut unit="V">2500</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243027502778636E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84808401272278733</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.2401122505144038</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24011225051440602</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>679.7961</real>
+            <imag>-283115.9587</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>679.79610000000628</real>
+            <imag>-283115.9587</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">22.075196364041435</ReactivePower>
+          <ApparentPower unit="VA">22.07526</ApparentPower>
+          <Cp unit="Farad">1.1243027502778636E-08</Cp>
+          <Rp unit="Ohm">117910514.92257413</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">679.7961</Rs>
+          <QualityFactor unit="">416.4718784058926</QualityFactor>
+          <ZPhase unit="°">-89.862426078750033</ZPhase>
+          <ZAbsolute unit="Ohm">283116.774835681</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">3000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.010596874000000001</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035322913333333338</CurrentCorrected>
+          <VoltageOut unit="V">3000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243015002831388E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84719968510343624</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23984491706217059</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23984491706217545</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>679.04000000000008</real>
+            <imag>-283116.2771</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>679.04000000001372</real>
+            <imag>-283116.27709999995</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">31.790530561689309</ReactivePower>
+          <ApparentPower unit="VA">31.790622000000003</ApparentPower>
+          <Cp unit="Farad">1.1243015002831388E-08</Cp>
+          <Rp unit="Ohm">118042070.35562792</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">679.04000000000008</Rs>
+          <QualityFactor unit="">416.9360819686616</QualityFactor>
+          <ZPhase unit="°">-89.86257924865329</ZPhase>
+          <ZAbsolute unit="Ohm">283117.09142029128</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>UstA</Mode>
+      <Name>ICLH</Name>
+      <OmicronName>6</OmicronName>
+      <OmicronNameSuffix>a</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T04:22:31</MeasuredDate>
+      <MeasurementType>MeasurementFrequencySweep</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>Iclh</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">15</Frequency>
+          <CurrentMeasured unit="A">0.002126742</CurrentMeasured>
+          <CurrentCorrected unit="A">0.010612485029940121</CurrentCorrected>
+          <VoltageOut unit="V">2004</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1258954819895319E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.26440281391420761</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24914394110037724</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24914394110037977</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>2347.8937</real>
+            <imag>-942384.4263</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>2347.8937000000237</real>
+            <imag>-942384.4263</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">4.2619777403965209</ReactivePower>
+          <ApparentPower unit="VA">4.261990968</ApparentPower>
+          <Cp unit="Farad">1.1258954819895319E-08</Cp>
+          <Rp unit="Ohm">378251332.05034232</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">2347.8937</Rs>
+          <QualityFactor unit="">401.37440051055125</QualityFactor>
+          <ZPhase unit="°">-89.857251332196284</ZPhase>
+          <ZAbsolute unit="Ohm">942387.35111290985</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">20</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">20</Frequency>
+          <CurrentMeasured unit="A">0.0028293280000000003</CurrentMeasured>
+          <CurrentCorrected unit="A">0.014146640000000002</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1255296898901608E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.34097773086850758</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24103159573094046</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.24103159573093344</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>1704.1375</real>
+            <imag>-707018.3039</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>1704.1374999999505</real>
+            <imag>-707018.3039</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">5.6586395627425583</ReactivePower>
+          <ApparentPower unit="VA">5.6586560000000006</ApparentPower>
+          <Cp unit="Farad">1.1255296898901608E-08</Cp>
+          <Rp unit="Ohm">293331838.61880374</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">1704.1375</Rs>
+          <QualityFactor unit="">414.8833670405117</QualityFactor>
+          <ZPhase unit="°">-89.861899335790326</ZPhase>
+          <ZAbsolute unit="Ohm">707020.357651922</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">35</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">35</Frequency>
+          <CurrentMeasured unit="A">0.004947993</CurrentMeasured>
+          <CurrentCorrected unit="A">0.024739965000000003</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1247312215175568E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.58071875647990556</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23472965960146275</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23472965960145228</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>949.0059</real>
+            <imag>-404297.39540000004</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>949.00589999995759</real>
+            <imag>-404297.3954</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">9.8959587376543467</ReactivePower>
+          <ApparentPower unit="VA">9.895986</ApparentPower>
+          <Cp unit="Farad">1.1247312215175568E-08</Cp>
+          <Rp unit="Ohm">172240535.63778919</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">949.0059</Rs>
+          <QualityFactor unit="">426.02200407816224</QualityFactor>
+          <ZPhase unit="°">-89.865510058786867</ZPhase>
+          <ZAbsolute unit="Ohm">404298.50919762516</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>PfCorrPass</ResultId>
+              <Message>[[AssessmentWithoutPfPassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">0.007063047</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035315235</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1242563970589076E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84520272894553528</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23933159430661907</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.23933159430661843</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>677.61390000000006</real>
+            <imag>-283127.6422</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>677.61389999999813</real>
+            <imag>-283127.6422</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">14.126053543314608</ReactivePower>
+          <ApparentPower unit="VA">14.126094</ApparentPower>
+          <Cp unit="Farad">1.1242563970589076E-08</Cp>
+          <Rp unit="Ohm">118299994.9356539</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">677.61390000000006</Rs>
+          <QualityFactor unit="">417.83033405896776</QualityFactor>
+          <ZPhase unit="°">-89.862873359239231</ZPhase>
+          <ZAbsolute unit="Ohm">283128.45307091391</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">135</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">135</Frequency>
+          <CurrentMeasured unit="A">0.019044933</CurrentMeasured>
+          <CurrentCorrected unit="A">0.095224665</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1226309539580616E-08</CapacitanceMeasured>
+          <WattLosses unit="W">2.5192461360335439</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.2645590774522385</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.2645590774522128</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>277.8235</real>
+            <imag>-105013.7847</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>277.823499999973</real>
+            <imag>-105013.7847</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">38.089732702346517</ReactivePower>
+          <ApparentPower unit="VA">38.089866</ApparentPower>
+          <Cp unit="Farad">1.1226309539580616E-08</Cp>
+          <Rp unit="Ohm">39694166.126749925</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">277.8235</Rs>
+          <QualityFactor unit="">377.9874081926115</QualityFactor>
+          <ZPhase unit="°">-89.848419167946162</ZPhase>
+          <ZAbsolute unit="Ohm">105014.15220300123</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">220</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">220</Frequency>
+          <CurrentMeasured unit="A">0.031007368</CurrentMeasured>
+          <CurrentCorrected unit="A">0.15503684</CurrentCorrected>
+          <VoltageOut unit="V">2000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1216982119965423E-08</CapacitanceMeasured>
+          <WattLosses unit="W">4.4028296344914253</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.28398717289278619</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.28398717289278536</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>183.1541</real>
+            <imag>-64493.7932</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>183.1540999999994</real>
+            <imag>-64493.793199999993</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">62.014485931076067</ReactivePower>
+          <ApparentPower unit="VA">62.014736</ApparentPower>
+          <Cp unit="Farad">1.1216982119965423E-08</Cp>
+          <Rp unit="Ohm">22710290.988564894</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">183.1541</Rs>
+          <QualityFactor unit="">352.12858025018278</QualityFactor>
+          <ZPhase unit="°">-89.8372877729907</ZPhase>
+          <ZAbsolute unit="Ohm">64494.05326655096</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">305</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">305</Frequency>
+          <CurrentMeasured unit="A">0.042924275000000005</CurrentMeasured>
+          <CurrentCorrected unit="A">0.21483621121121124</CurrentCorrected>
+          <VoltageOut unit="V">1998</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1210765165938886E-08</CapacitanceMeasured>
+          <WattLosses unit="W">6.3842374538683071</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.29716897385319985</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.29716897385320989</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>138.31990000000002</real>
+            <imag>-46545.8753</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>138.31990000000468</real>
+            <imag>-46545.8753</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">85.7623227698769</ReactivePower>
+          <ApparentPower unit="VA">85.762701450000009</ApparentPower>
+          <Cp unit="Farad">1.1210765165938886E-08</Cp>
+          <Rp unit="Ohm">15663238.91094402</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">138.31990000000002</Rs>
+          <QualityFactor unit="">336.50888483869636</QualityFactor>
+          <ZPhase unit="°">-89.829735221157947</ZPhase>
+          <ZAbsolute unit="Ohm">46546.08082146</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>FrequencyMismatch</ResultId>
+              <Message>[[AssessmentCapFrequencyMismatchMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">400</TestFrequency>
+          <TestVoltage unit="V">2000</TestVoltage>
+          <Frequency unit="Hz">400</Frequency>
+          <CurrentMeasured unit="A">0.056126044000000007</CurrentMeasured>
+          <CurrentCorrected unit="A">0.2816158755644757</CurrentCorrected>
+          <VoltageOut unit="V">1993</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1204917194735505E-08</CapacitanceMeasured>
+          <WattLosses unit="W">8.7226390193221146</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.30973683010188013</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">0.30973683010188785</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>109.9867</real>
+            <imag>-35509.7261</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>109.98670000000271</real>
+            <imag>-35509.726099999993</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">111.8586691245673</ReactivePower>
+          <ApparentPower unit="VA">111.85920569200002</ApparentPower>
+          <Cp unit="Farad">1.1204917194735505E-08</Cp>
+          <Rp unit="Ohm">11464592.944157777</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">109.9867</Rs>
+          <QualityFactor unit="">322.85472788982668</QualityFactor>
+          <ZPhase unit="°">-89.822534436269123</ZPhase>
+          <ZAbsolute unit="Ohm">35509.896434250521</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>UstA</Mode>
+      <Name>ICLH</Name>
+      <OmicronName>6</OmicronName>
+      <OmicronNameSuffix>b</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T03:47:39</MeasuredDate>
+      <MeasurementType>LocalCrossCheck</MeasurementType>
+      <TransformerWinding>Primary</TransformerWinding>
+      <TransformerOverallCapacitance>Ichl</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>AssessmentCalculatedCrossCheckComparesPf</ResultId>
+              <Message>[[AssessmentCalculatedCrossCheckComparesPf]]</Message>
+            </AssessmentResult>
+            <AssessmentResult>
+              <ResultId>AssessmentCalculatedCrossCheckComparesCap</ResultId>
+              <Message>[[AssessmentCalculatedCrossCheckComparesCap]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">0</TestVoltage>
+          <Frequency unit="Hz">NaN</Frequency>
+          <CurrentMeasured unit="A">NaN</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035321104480983592</CurrentCorrected>
+          <VoltageOut unit="V">NaN</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243131649825544E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.861886785229183</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.244014675615031</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">NaN</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">NaN</ReactivePower>
+          <ApparentPower unit="VA">NaN</ApparentPower>
+          <Cp unit="Farad">NaN</Cp>
+          <Rp unit="Ohm">NaN</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">NaN</Rs>
+          <QualityFactor unit="">NaN</QualityFactor>
+          <ZPhase unit="°">NaN</ZPhase>
+          <ZAbsolute unit="Ohm">NaN</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Undefined</Mode>
+      <Name>ICHL</Name>
+      <OmicronName />
+      <OmicronNameSuffix>a</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T04:14:55</MeasuredDate>
+      <MeasurementType>LocalCrossCheck</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>Iclh</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>AssessmentCalculatedCrossCheckComparesPf</ResultId>
+              <Message>[[AssessmentCalculatedCrossCheckComparesPf]]</Message>
+            </AssessmentResult>
+            <AssessmentResult>
+              <ResultId>AssessmentCalculatedCrossCheckComparesCap</ResultId>
+              <Message>[[AssessmentCalculatedCrossCheckComparesCap]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">0</TestVoltage>
+          <Frequency unit="Hz">NaN</Frequency>
+          <CurrentMeasured unit="A">NaN</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035315118859269135</CurrentCorrected>
+          <VoltageOut unit="V">NaN</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243077642619821E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84863307164733071</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24030304839950736</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">NaN</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">NaN</ReactivePower>
+          <ApparentPower unit="VA">NaN</ApparentPower>
+          <Cp unit="Farad">NaN</Cp>
+          <Rp unit="Ohm">NaN</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">NaN</Rs>
+          <QualityFactor unit="">NaN</QualityFactor>
+          <ZPhase unit="°">NaN</ZPhase>
+          <ZAbsolute unit="Ohm">NaN</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Undefined</Mode>
+      <Name>ICLH</Name>
+      <OmicronName />
+      <OmicronNameSuffix>b</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T03:52:58</MeasuredDate>
+      <MeasurementType>GlobalCrossCheck</MeasurementType>
+      <TransformerWinding>None</TransformerWinding>
+      <TransformerOverallCapacitance>Ichl</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>GlobalCrossCheckResult</ResultId>
+              <Message>[[GlobalCrossCheckNotPossibleMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">0</TestVoltage>
+          <Frequency unit="Hz">NaN</Frequency>
+          <CurrentMeasured unit="A">NaN</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035320829907788023</CurrentCorrected>
+          <VoltageOut unit="V">NaN</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243218348166709E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.85696218701130211</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.24262303902231028</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">NaN</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">NaN</ReactivePower>
+          <ApparentPower unit="VA">NaN</ApparentPower>
+          <Cp unit="Farad">NaN</Cp>
+          <Rp unit="Ohm">NaN</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">NaN</Rs>
+          <QualityFactor unit="">NaN</QualityFactor>
+          <ZPhase unit="°">NaN</ZPhase>
+          <ZAbsolute unit="Ohm">NaN</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Undefined</Mode>
+      <Name>ICHL</Name>
+      <OmicronName />
+      <OmicronNameSuffix>c</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>-1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T04:20:13</MeasuredDate>
+      <MeasurementType>GlobalCrossCheck</MeasurementType>
+      <TransformerWinding>None</TransformerWinding>
+      <TransformerOverallCapacitance>Iclh</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>GlobalCrossCheckResult</ResultId>
+              <Message>[[GlobalCrossCheckNotPossibleMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">0</TestVoltage>
+          <Frequency unit="Hz">NaN</Frequency>
+          <CurrentMeasured unit="A">NaN</CurrentMeasured>
+          <CurrentCorrected unit="A">0.035322913333333338</CurrentCorrected>
+          <VoltageOut unit="V">NaN</VoltageOut>
+          <CapacitanceMeasured unit="Farad">1.1243015002831388E-08</CapacitanceMeasured>
+          <WattLosses unit="W">0.84719968510343624</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">0.23984491706217059</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">NaN</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">NaN</ReactivePower>
+          <ApparentPower unit="VA">NaN</ApparentPower>
+          <Cp unit="Farad">NaN</Cp>
+          <Rp unit="Ohm">NaN</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">NaN</Rs>
+          <QualityFactor unit="">NaN</QualityFactor>
+          <ZPhase unit="°">NaN</ZPhase>
+          <ZAbsolute unit="Ohm">NaN</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Undefined</Mode>
+      <Name>ICLH</Name>
+      <OmicronName />
+      <OmicronNameSuffix>d</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>-1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>None</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>0001-01-01T00:00:00</MeasuredDate>
+      <MeasurementType>BushingCompensation</MeasurementType>
+      <TransformerWinding>Primary</TransformerWinding>
+      <TransformerOverallCapacitance>None</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>None</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">0</TestVoltage>
+          <Frequency unit="Hz">NaN</Frequency>
+          <CurrentMeasured unit="A">NaN</CurrentMeasured>
+          <CurrentCorrected unit="A">NaN</CurrentCorrected>
+          <VoltageOut unit="V">NaN</VoltageOut>
+          <CapacitanceMeasured unit="Farad">NaN</CapacitanceMeasured>
+          <WattLosses unit="W">NaN</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">NaN</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">NaN</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">NaN</ReactivePower>
+          <ApparentPower unit="VA">NaN</ApparentPower>
+          <Cp unit="Farad">NaN</Cp>
+          <Rp unit="Ohm">NaN</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">NaN</Rs>
+          <QualityFactor unit="">NaN</QualityFactor>
+          <ZPhase unit="°">NaN</ZPhase>
+          <ZAbsolute unit="Ohm">NaN</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Undefined</Mode>
+      <Name>None</Name>
+      <OmicronName />
+      <OmicronNameSuffix>e</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>None</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>0001-01-01T00:00:00</MeasuredDate>
+      <MeasurementType>BushingCompensation</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>None</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>None</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">15</TestFrequency>
+          <TestVoltage unit="V">0</TestVoltage>
+          <Frequency unit="Hz">NaN</Frequency>
+          <CurrentMeasured unit="A">NaN</CurrentMeasured>
+          <CurrentCorrected unit="A">NaN</CurrentCorrected>
+          <VoltageOut unit="V">NaN</VoltageOut>
+          <CapacitanceMeasured unit="Farad">NaN</CapacitanceMeasured>
+          <WattLosses unit="W">NaN</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">NaN</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">NaN</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>NaN</real>
+            <imag>NaN</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">NaN</ReactivePower>
+          <ApparentPower unit="VA">NaN</ApparentPower>
+          <Cp unit="Farad">NaN</Cp>
+          <Rp unit="Ohm">NaN</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">NaN</Rs>
+          <QualityFactor unit="">NaN</QualityFactor>
+          <ZPhase unit="°">NaN</ZPhase>
+          <ZAbsolute unit="Ohm">NaN</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Undefined</Mode>
+      <Name>None</Name>
+      <OmicronName />
+      <OmicronNameSuffix>f</OmicronNameSuffix>
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>-1</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>1</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+  </Measurements>
+  <HardwareConfiguration>
+    <IsCapacitanceMeasuredByMeasurement>false</IsCapacitanceMeasuredByMeasurement>
+    <Capacitance unit="Farad">NaN</Capacitance>
+    <CR500_80H>0</CR500_80H>
+    <CR500_40H>0</CR500_40H>
+  </HardwareConfiguration>
+</TanDeltaTest>

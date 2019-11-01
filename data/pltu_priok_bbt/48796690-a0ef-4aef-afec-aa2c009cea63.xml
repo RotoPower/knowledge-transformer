@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<TanDeltaTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="48796690-a0ef-4aef-afec-aa2c009cea63" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-04-11T02:31:26</Created>
+  <CreatedBy>LAPTOP-5KD6C6FJ\hp</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T09:08:15.0722637Z</LastModified>
+  <LastModifiedBy>LAPTOP-5KD6C6FJ\hp</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>1b43baf9-e3dc-478b-a1d5-c477346ad64b</TestId>
+  <TestIndex>14</TestIndex>
+  <Comment />
+  <AssetId>2d271f12-4fcc-4f56-b380-aa2400e4ecae</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-04-11T04:17:02</ExecutionDate>
+  <Name>(2) Bushing Sec – Energized Collar</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>2</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>false</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>true</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>None</Assessment>
+  <ResultState>All</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <TanDeltaId>1b43baf9-e3dc-478b-a1d5-c477346ad64b</TanDeltaId>
+  <TestVoltage unit="V">12000</TestVoltage>
+  <TestFrequency unit="Hz">50</TestFrequency>
+  <CorrectionTemperatureSource>Custom</CorrectionTemperatureSource>
+  <CorrectionFactor>1</CorrectionFactor>
+  <PerformTemperatureCorrection>false</PerformTemperatureCorrection>
+  <UseReferenceVoltage>false</UseReferenceVoltage>
+  <UseHvShield xsi:nil="true" />
+  <ReferenceVoltage unit="V">10000</ReferenceVoltage>
+  <Averaging>5</Averaging>
+  <Bandwidth>_5Hz</Bandwidth>
+  <UseBeeper>true</UseBeeper>
+  <PerformShieldCheck>true</PerformShieldCheck>
+  <MeasurementListType>NullValue</MeasurementListType>
+  <AverageOilTemperature unit="C">NaN</AverageOilTemperature>
+  <BottomOilTemperature unit="C">NaN</BottomOilTemperature>
+  <CorrectionTemperature unit="C">NaN</CorrectionTemperature>
+  <TopOilTemperature unit="C">NaN</TopOilTemperature>
+  <InstrumentTransformerOilTemperature unit="C">NaN</InstrumentTransformerOilTemperature>
+  <TestInstrumentTransformerOilTemperature unit="C">NaN</TestInstrumentTransformerOilTemperature>
+  <JobInstrumentTransformerOilTemperature unit="C">NaN</JobInstrumentTransformerOilTemperature>
+  <TestTopOilTemperature unit="C">NaN</TestTopOilTemperature>
+  <TestBottomOilTemperature unit="C">NaN</TestBottomOilTemperature>
+  <JobTopOilTemperature unit="C">NaN</JobTopOilTemperature>
+  <JobBottomOilTemperature unit="C">NaN</JobBottomOilTemperature>
+  <OilTemperature unit="C">NaN</OilTemperature>
+  <WindingTemperature unit="C">NaN</WindingTemperature>
+  <TestWindingTemperature unit="C">NaN</TestWindingTemperature>
+  <JobWindingTemperature unit="C">NaN</JobWindingTemperature>
+  <TestObjectTemperature unit="C">NaN</TestObjectTemperature>
+  <PerformInvertedC1Test xsi:nil="true" />
+  <FrequencySweeps>None</FrequencySweeps>
+  <VoltageSweeps>None</VoltageSweeps>
+  <SweepProfileCollectionId>b1fac00d-31f5-4e65-979a-2cd1f3f753ac</SweepProfileCollectionId>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories>
+      <Accessory>
+        <Name>CP TD1</Name>
+        <SerialNumber>ML111U</SerialNumber>
+        <CalibrationDate>Not available</CalibrationDate>
+      </Accessory>
+    </Accessories>
+    <CPTD1Connected>true</CPTD1Connected>
+    <CPSB1Connected>false</CPSB1Connected>
+    <CPTD1SerialNumber>ML111U</CPTD1SerialNumber>
+    <CPTD1CalibrationDate>Not available</CPTD1CalibrationDate>
+  </TestSetInfo>
+  <PerformBushingCompensation xsi:nil="true" />
+  <ResultType>PfAndCapAndWattLosses</ResultType>
+  <AssessedBushingInsulationType>NullValue</AssessedBushingInsulationType>
+  <AssessedHighestRatedVoltageLL unit="V">NaN</AssessedHighestRatedVoltageLL>
+  <AssessedTransformerInsulationMedium>NullValue</AssessedTransformerInsulationMedium>
+  <MeasurementRecreationHash>+6RbCunvABFb3JXoRGVdF+ZWpKE=</MeasurementRecreationHash>
+  <UseNoiseSuppression>true</UseNoiseSuppression>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <Measurements>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-11T04:09:57</MeasuredDate>
+      <MeasurementType>Measurement</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>NullValue</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">6000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">6.7011E-05</CurrentMeasured>
+          <CurrentCorrected unit="A">6.7011E-05</CurrentCorrected>
+          <VoltageOut unit="V">6001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">3.2526581406621517E-11</CapacitanceMeasured>
+          <WattLosses unit="W">0.013988117630142016</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">3.480586677490515</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">3.4805866774905172</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>3402031.6782</real>
+            <imag>-97743052.9227</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>3402031.6782000018</real>
+            <imag>-97743052.9227</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.40188965040305707</ReactivePower>
+          <ApparentPower unit="VA">0.402133011</ApparentPower>
+          <Cp unit="Farad">3.2526581406621517E-11</Cp>
+          <Rp unit="Ohm">2811637021.3372488</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">3402031.6782</Rs>
+          <QualityFactor unit="">28.730788589956759</QualityFactor>
+          <ZPhase unit="°">-88.006575448587228</ZPhase>
+          <ZAbsolute unit="Ohm">97802240.333180562</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Gst</Mode>
+      <Name>a1</Name>
+      <OmicronName>1</OmicronName>
+      <OmicronNameSuffix />
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>4</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-11T04:12:35</MeasuredDate>
+      <MeasurementType>Measurement</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>NullValue</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">6000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">6.8238E-05</CurrentMeasured>
+          <CurrentCorrected unit="A">6.8238E-05</CurrentCorrected>
+          <VoltageOut unit="V">6001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">3.3166754629399415E-11</CapacitanceMeasured>
+          <WattLosses unit="W">0.018289744508378118</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">4.4708627371658141</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">4.4708627371658149</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>4282242.5056</real>
+            <imag>-95781122.2877</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>4282242.5056000007</real>
+            <imag>-95781122.2877</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.40908758742104473</ReactivePower>
+          <ApparentPower unit="VA">0.409496238</ApparentPower>
+          <Cp unit="Farad">3.3166754629399415E-11</Cp>
+          <Rp unit="Ohm">2146623171.2816403</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">4282242.5056</Rs>
+          <QualityFactor unit="">22.36704767710949</QualityFactor>
+          <ZPhase unit="°">-87.440089071258541</ZPhase>
+          <ZAbsolute unit="Ohm">95876801.091651514</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Gst</Mode>
+      <Name>b1</Name>
+      <OmicronName>2</OmicronName>
+      <OmicronNameSuffix />
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>5</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-11T04:15:04</MeasuredDate>
+      <MeasurementType>Measurement</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>NullValue</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">6000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">6.7826000000000011E-05</CurrentMeasured>
+          <CurrentCorrected unit="A">6.7826000000000011E-05</CurrentCorrected>
+          <VoltageOut unit="V">6000</VoltageOut>
+          <CapacitanceMeasured unit="Farad">3.2958723391064234E-11</CapacitanceMeasured>
+          <WattLosses unit="W">0.015513142861388487</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">3.8147678059088119</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">3.81476780590883</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>3678885.8193</real>
+            <imag>-96438001.117700011</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>3678885.8193000178</real>
+            <imag>-96438001.117700011</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.4066602123819863</ReactivePower>
+          <ApparentPower unit="VA">0.40695600000000004</ApparentPower>
+          <Cp unit="Farad">3.2958723391064234E-11</Cp>
+          <Rp unit="Ohm">2531696474.9455428</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">3678885.8193</Rs>
+          <QualityFactor unit="">26.213915259824439</QualityFactor>
+          <ZPhase unit="°">-87.815358367911614</ZPhase>
+          <ZAbsolute unit="Ohm">96508146.08336933</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Gst</Mode>
+      <Name>c1</Name>
+      <OmicronName>3</OmicronName>
+      <OmicronNameSuffix />
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>6</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+    <Measurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-11T04:17:02</MeasuredDate>
+      <MeasurementType>Measurement</MeasurementType>
+      <TransformerWinding>Secondary</TransformerWinding>
+      <TransformerOverallCapacitance>NullValue</TransformerOverallCapacitance>
+      <MeasurementPoints>
+        <MeasurementPoint>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <TestFrequency unit="Hz">50</TestFrequency>
+          <TestVoltage unit="V">6000</TestVoltage>
+          <Frequency unit="Hz">50</Frequency>
+          <CurrentMeasured unit="A">6.727E-05</CurrentMeasured>
+          <CurrentCorrected unit="A">6.727E-05</CurrentCorrected>
+          <VoltageOut unit="V">6001</VoltageOut>
+          <CapacitanceMeasured unit="Farad">3.2653732675396428E-11</CapacitanceMeasured>
+          <WattLosses unit="W">0.018071561968149987</WattLosses>
+          <PowerFactorMeasured unit="DissipationFactor">4.4811165542541689</PowerFactorMeasured>
+          <PowerFactorCorrected unit="DissipationFactor">4.4811165542541671</PowerFactorCorrected>
+          <ZMeasured unit="Ohm">
+            <real>4359456.2930000005</real>
+            <imag>-97285045.8188</imag>
+          </ZMeasured>
+          <ZCorrected unit="Ohm">
+            <real>4359456.2929999987</real>
+            <imag>-97285045.8188</imag>
+          </ZCorrected>
+          <CapacitanceReference unit="Farad">NaN</CapacitanceReference>
+          <PowerFactorReference unit="DissipationFactor">NaN</PowerFactorReference>
+          <WattLossesReference unit="W">NaN</WattLossesReference>
+          <ReactivePower unit="VAr">0.40328256918454114</ReactivePower>
+          <ApparentPower unit="VA">0.40368727</ApparentPower>
+          <Cp unit="Farad">3.2653732675396428E-11</Cp>
+          <Rp unit="Ohm">2175359577.3775988</Rp>
+          <Ls unit="H">NaN</Ls>
+          <Rs unit="Ohm">4359456.2930000005</Rs>
+          <QualityFactor unit="">22.315866768755328</QualityFactor>
+          <ZPhase unit="°">-87.434225813566854</ZPhase>
+          <ZAbsolute unit="Ohm">97382672.992358312</ZAbsolute>
+          <TankLossIndex>NaN</TankLossIndex>
+        </MeasurementPoint>
+      </MeasurementPoints>
+      <Mode>Gst</Mode>
+      <Name>n1</Name>
+      <OmicronName>4</OmicronName>
+      <OmicronNameSuffix />
+      <UseGlobalCorrectionFactor>true</UseGlobalCorrectionFactor>
+      <CorrectionFactor>1</CorrectionFactor>
+      <ChildPosition>7</ChildPosition>
+      <Position>-1</Position>
+      <PositionName xsi:nil="true" />
+      <MeasurementBlockIndex>0</MeasurementBlockIndex>
+      <InterrupterIndex>-1</InterrupterIndex>
+      <PhaseIndex>-1</PhaseIndex>
+    </Measurement>
+  </Measurements>
+  <HardwareConfiguration>
+    <IsCapacitanceMeasuredByMeasurement>false</IsCapacitanceMeasuredByMeasurement>
+    <Capacitance unit="Farad">NaN</Capacitance>
+    <CR500_80H>0</CR500_80H>
+    <CR500_40H>0</CR500_40H>
+  </HardwareConfiguration>
+</TanDeltaTest>

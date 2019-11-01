@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<tDemagTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="52e9c350-57bc-4744-8374-aad500f2659b" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-09-27T07:42:36</Created>
+  <CreatedBy>DESKTOP-9C2UOFI\sis-ujh</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T03:44:51.9660721Z</LastModified>
+  <LastModifiedBy>DESKTOP-9C2UOFI\sis-ujh</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>1f701e34-4f05-49d5-a271-416c88ceed17</TestId>
+  <TestIndex>12</TestIndex>
+  <Comment />
+  <AssetId>b9082f7c-beea-4795-98b2-aad000e07417</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-09-27T08:18:10</ExecutionDate>
+  <Name>Demagnetization</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>1</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>false</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>true</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>None</Assessment>
+  <ResultState>Partial</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <VectorGroup>D;YN_11</VectorGroup>
+  <TestCurrent unit="A">5</TestCurrent>
+  <SaturationLevel unit="%">99</SaturationLevel>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories />
+    <CPTD1Connected>false</CPTD1Connected>
+    <CPSB1Connected>true</CPSB1Connected>
+    <CPTD1SerialNumber />
+    <CPTD1CalibrationDate />
+  </TestSetInfo>
+  <Measurements>
+    <DemagMeasurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-09-27T08:18:10</MeasuredDate>
+      <Name />
+      <Number>1</Number>
+      <IDC unit="A">0.0098</IDC>
+      <Time unit="s">4.783</Time>
+      <MinRemanence unit="Vs">-53.381460000000004</MinRemanence>
+      <MaxRemanence unit="Vs">53.381460000000004</MaxRemanence>
+      <RemainingRemanence unit="%">-0.70000000000000007</RemainingRemanence>
+      <InitialRemanence unit="%">-91.5</InitialRemanence>
+      <Stage>Completed</Stage>
+    </DemagMeasurement>
+    <DemagMeasurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>None</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>0001-01-01T00:00:00</MeasuredDate>
+      <Name />
+      <Number>2</Number>
+      <IDC unit="A">NaN</IDC>
+      <Time unit="s">NaN</Time>
+      <MinRemanence unit="Vs">NaN</MinRemanence>
+      <MaxRemanence unit="Vs">NaN</MaxRemanence>
+      <RemainingRemanence unit="%">NaN</RemainingRemanence>
+      <InitialRemanence unit="%">NaN</InitialRemanence>
+      <Stage>Idle</Stage>
+    </DemagMeasurement>
+  </Measurements>
+</tDemagTest>

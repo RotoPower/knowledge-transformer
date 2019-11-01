@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<tTTRTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="6a8caaa1-f4af-486b-90a9-aa2700e69399" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-04-06T06:59:55</Created>
+  <CreatedBy>LAPTOP-5KD6C6FJ\hp</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T09:08:15.0722637Z</LastModified>
+  <LastModifiedBy>LAPTOP-5KD6C6FJ\hp</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>01913667-a314-47a8-bf29-0e582ef8123c</TestId>
+  <TestIndex>2</TestIndex>
+  <Comment />
+  <AssetId>2d271f12-4fcc-4f56-b380-aa2400e4ecae</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-04-06T07:42:09</ExecutionDate>
+  <Name>Turns Ratio Prim-Sec</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>1</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>false</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>true</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>Pass</Assessment>
+  <ResultState>All</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <UseCPSB1>true</UseCPSB1>
+  <SwitchingMode>AutoSwitchingOfPhases</SwitchingMode>
+  <UseIecStandard>false</UseIecStandard>
+  <WiringMode>IEC</WiringMode>
+  <TapTime unit="s">10</TapTime>
+  <ImpulseTime unit="s">2</ImpulseTime>
+  <TestVoltage unit="V">150</TestVoltage>
+  <Winding>Secondary</Winding>
+  <WindingVectorType>YN</WindingVectorType>
+  <VectorGroup>D;YN_1</VectorGroup>
+  <NameplatePrimaryVoltage unit="V">15750</NameplatePrimaryVoltage>
+  <NameplateSecondaryVoltage unit="V">6300</NameplateSecondaryVoltage>
+  <NameplateTurnRatio>1.7320508075688772</NameplateTurnRatio>
+  <Phase>PhaseC</Phase>
+  <TapChanger>OLTC</TapChanger>
+  <SelectableTapChangerTypes>
+    <TCType>OLTC</TCType>
+  </SelectableTapChangerTypes>
+  <StartTapIndex>4</StartTapIndex>
+  <StopTapIndex>4</StopTapIndex>
+  <SelectedDocumentationTapIndex>-1</SelectedDocumentationTapIndex>
+  <AutomaticAssessment>
+    <IsActive>true</IsActive>
+    <RatioDeviationMax unit="%">0.5</RatioDeviationMax>
+  </AutomaticAssessment>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories />
+    <CPTD1Connected>false</CPTD1Connected>
+    <CPSB1Connected>true</CPSB1Connected>
+    <CPTD1SerialNumber />
+    <CPTD1CalibrationDate />
+  </TestSetInfo>
+  <Measurements>
+    <TTRMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-06T07:31:32</MeasuredDate>
+      <NominalRatioTTR>4.3301</NominalRatioTTR>
+      <NominalRatioVTR>2.5</NominalRatioVTR>
+      <PhaseAResult>
+        <VPrim unit="V">149.96</VPrim>
+        <IPrim unit="A">0.0066089999999999994</IPrim>
+        <IPhase unit="°">-62.31</IPhase>
+        <VSec unit="V">34.668760000000006</VSec>
+        <VPhase unit="°">0.06</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.3255</TTR>
+        <VTR>2.4973</VTR>
+        <RatioDeviation unit="%">-0.1062331123992503</RatioDeviation>
+      </PhaseAResult>
+      <PhaseBResult>
+        <VPrim unit="V">149.97</VPrim>
+        <IPrim unit="A">0.009814</IPrim>
+        <IPhase unit="°">-63.59</IPhase>
+        <VSec unit="V">34.670515</VSec>
+        <VPhase unit="°">0.07</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.3256</TTR>
+        <VTR>2.4974</VTR>
+        <RatioDeviation unit="%">-0.10392369691231544</RatioDeviation>
+      </PhaseBResult>
+      <PhaseCResult>
+        <VPrim unit="V">149.97</VPrim>
+        <IPrim unit="A">0.009203</IPrim>
+        <IPhase unit="°">-62.78</IPhase>
+        <VSec unit="V">34.669760000000004</VSec>
+        <VPhase unit="°">0.08</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.3257</TTR>
+        <VTR>2.4974</VTR>
+        <RatioDeviation unit="%">-0.10161428142536005</RatioDeviation>
+      </PhaseCResult>
+      <TapChangerEntryId>4</TapChangerEntryId>
+      <TapName>5</TapName>
+    </TTRMeasurement>
+    <TTRMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-06T07:37:04</MeasuredDate>
+      <NominalRatioTTR>4.276</NominalRatioTTR>
+      <NominalRatioVTR>2.4687</NominalRatioVTR>
+      <PhaseAResult>
+        <VPrim unit="V">149.97</VPrim>
+        <IPrim unit="A">0.006749</IPrim>
+        <IPhase unit="°">-62.26</IPhase>
+        <VSec unit="V">35.107485000000004</VSec>
+        <VPhase unit="°">0.07</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.2717</TTR>
+        <VTR>2.4663</VTR>
+        <RatioDeviation unit="%">-0.10056127221701938</RatioDeviation>
+      </PhaseAResult>
+      <PhaseBResult>
+        <VPrim unit="V">149.96</VPrim>
+        <IPrim unit="A">0.010032</IPrim>
+        <IPhase unit="°">-63.68</IPhase>
+        <VSec unit="V">35.106585</VSec>
+        <VPhase unit="°">0.06</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.2716</TTR>
+        <VTR>2.4662</VTR>
+        <RatioDeviation unit="%">-0.10289990645461916</RatioDeviation>
+      </PhaseBResult>
+      <PhaseCResult>
+        <VPrim unit="V">149.97</VPrim>
+        <IPrim unit="A">0.009413</IPrim>
+        <IPhase unit="°">-62.870000000000005</IPhase>
+        <VSec unit="V">35.10792</VSec>
+        <VPhase unit="°">0.07</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.2717</TTR>
+        <VTR>2.4663</VTR>
+        <RatioDeviation unit="%">-0.10056127221701938</RatioDeviation>
+      </PhaseCResult>
+      <TapChangerEntryId>5</TapChangerEntryId>
+      <TapName>6</TapName>
+    </TTRMeasurement>
+    <TTRMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-06T07:39:30</MeasuredDate>
+      <NominalRatioTTR>4.2218</NominalRatioTTR>
+      <NominalRatioVTR>2.4375</NominalRatioVTR>
+      <PhaseAResult>
+        <VPrim unit="V">149.95000000000002</VPrim>
+        <IPrim unit="A">0.006921</IPrim>
+        <IPhase unit="°">-62.21</IPhase>
+        <VSec unit="V">35.552665000000005</VSec>
+        <VPhase unit="°">0.07</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.2177</TTR>
+        <VTR>2.4351</VTR>
+        <RatioDeviation unit="%">-0.097114974655365352</RatioDeviation>
+      </PhaseAResult>
+      <PhaseBResult>
+        <VPrim unit="V">149.96</VPrim>
+        <IPrim unit="A">0.010268</IPrim>
+        <IPhase unit="°">-63.59</IPhase>
+        <VSec unit="V">35.55301</VSec>
+        <VPhase unit="°">0.05</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.2179</TTR>
+        <VTR>2.4352</VTR>
+        <RatioDeviation unit="%">-0.092377658818508512</RatioDeviation>
+      </PhaseBResult>
+      <PhaseCResult>
+        <VPrim unit="V">149.95000000000002</VPrim>
+        <IPrim unit="A">0.0096359999999999987</IPrim>
+        <IPhase unit="°">-63.02</IPhase>
+        <VSec unit="V">35.553915</VSec>
+        <VPhase unit="°">0.08</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.2175</TTR>
+        <VTR>2.435</VTR>
+        <RatioDeviation unit="%">-0.10185229049220117</RatioDeviation>
+      </PhaseCResult>
+      <TapChangerEntryId>6</TapChangerEntryId>
+      <TapName>7</TapName>
+    </TTRMeasurement>
+    <TTRMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-06T07:41:01</MeasuredDate>
+      <NominalRatioTTR>4.3843</NominalRatioTTR>
+      <NominalRatioVTR>2.5313</NominalRatioVTR>
+      <PhaseAResult>
+        <VPrim unit="V">149.98</VPrim>
+        <IPrim unit="A">0.006437</IPrim>
+        <IPhase unit="°">-62.27</IPhase>
+        <VSec unit="V">34.243035000000006</VSec>
+        <VPhase unit="°">0.07</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.3799</TTR>
+        <VTR>2.5287</VTR>
+        <RatioDeviation unit="%">-0.1003580959332052</RatioDeviation>
+      </PhaseAResult>
+      <PhaseBResult>
+        <VPrim unit="V">149.97</VPrim>
+        <IPrim unit="A">0.0096</IPrim>
+        <IPhase unit="°">-63.53</IPhase>
+        <VSec unit="V">34.240915</VSec>
+        <VPhase unit="°">0.04</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.3798</TTR>
+        <VTR>2.5287</VTR>
+        <RatioDeviation unit="%">-0.10263896174986389</RatioDeviation>
+      </PhaseBResult>
+      <PhaseCResult>
+        <VPrim unit="V">149.95000000000002</VPrim>
+        <IPrim unit="A">0.0089719999999999991</IPrim>
+        <IPhase unit="°">-62.870000000000005</IPhase>
+        <VSec unit="V">34.237695</VSec>
+        <VPhase unit="°">0.09</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.3797</TTR>
+        <VTR>2.5286</VTR>
+        <RatioDeviation unit="%">-0.10491982756654285</RatioDeviation>
+      </PhaseCResult>
+      <TapChangerEntryId>3</TapChangerEntryId>
+      <TapName>4</TapName>
+    </TTRMeasurement>
+    <TTRMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-06T07:42:09</MeasuredDate>
+      <NominalRatioTTR>4.4384</NominalRatioTTR>
+      <NominalRatioVTR>2.5625</NominalRatioVTR>
+      <PhaseAResult>
+        <VPrim unit="V">149.97</VPrim>
+        <IPrim unit="A">0.006319</IPrim>
+        <IPhase unit="°">-62.2</IPhase>
+        <VSec unit="V">33.825895</VSec>
+        <VPhase unit="°">0.05</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.4336</TTR>
+        <VTR>2.5597</VTR>
+        <RatioDeviation unit="%">-0.10814708002882731</RatioDeviation>
+      </PhaseAResult>
+      <PhaseBResult>
+        <VPrim unit="V">149.99</VPrim>
+        <IPrim unit="A">0.009404</IPrim>
+        <IPhase unit="°">-63.61</IPhase>
+        <VSec unit="V">33.82759</VSec>
+        <VPhase unit="°">0.08</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.434</TTR>
+        <VTR>2.56</VTR>
+        <RatioDeviation unit="%">-0.099134823359758373</RatioDeviation>
+      </PhaseBResult>
+      <PhaseCResult>
+        <VPrim unit="V">149.96</VPrim>
+        <IPrim unit="A">0.008779</IPrim>
+        <IPhase unit="°">-62.85</IPhase>
+        <VSec unit="V">33.823190000000004</VSec>
+        <VPhase unit="°">0.09</VPhase>
+        <KeepResult>true</KeepResult>
+        <TTR>4.4336</TTR>
+        <VTR>2.5597</VTR>
+        <RatioDeviation unit="%">-0.10814708002882731</RatioDeviation>
+      </PhaseCResult>
+      <TapChangerEntryId>2</TapChangerEntryId>
+      <TapName>3</TapName>
+    </TTRMeasurement>
+  </Measurements>
+  <TTRResultType>TransformerTurnsRatio</TTRResultType>
+</tTTRTest>

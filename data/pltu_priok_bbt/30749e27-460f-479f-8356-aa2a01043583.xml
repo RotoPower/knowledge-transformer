@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<tTransformerWindingResistanceTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="30749e27-460f-479f-8356-aa2a01043583" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-04-09T08:47:27</Created>
+  <CreatedBy>LAPTOP-5KD6C6FJ\hp</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T09:08:15.0722637Z</LastModified>
+  <LastModifiedBy>LAPTOP-5KD6C6FJ\hp</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>a25118c7-89ae-4aa4-ba16-cc9136f8090f</TestId>
+  <TestIndex>9</TestIndex>
+  <Comment />
+  <AssetId>2d271f12-4fcc-4f56-b380-aa2400e4ecae</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-04-09T09:16:23</ExecutionDate>
+  <Name>(2) DC Winding Resistance Sec</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>2</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>true</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>false</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>Fail</Assessment>
+  <ResultState>Partial</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <UseCPSB1>false</UseCPSB1>
+  <SwitchingMode>Manual</SwitchingMode>
+  <UpDownTest>false</UpDownTest>
+  <AutomaticResult>true</AutomaticResult>
+  <UseTemperatureCorrection>true</UseTemperatureCorrection>
+  <ShowTRTapCheckResults>false</ShowTRTapCheckResults>
+  <TapTime unit="s">10</TapTime>
+  <ImpulseTime unit="s">2</ImpulseTime>
+  <TestCurrent unit="A">14</TestCurrent>
+  <Winding>Secondary</Winding>
+  <WindingVectorType>YN</WindingVectorType>
+  <VectorGroup>D;YN_1</VectorGroup>
+  <NameplateConductorMaterial>Copper</NameplateConductorMaterial>
+  <Phase>PhaseB</Phase>
+  <TapChanger>None</TapChanger>
+  <NameplateWindingTemperature unit="C">NaN</NameplateWindingTemperature>
+  <ReferenceTemperature unit="C">75</ReferenceTemperature>
+  <WindingTemperature unit="C">32</WindingTemperature>
+  <TestWindingTemperature unit="C">NaN</TestWindingTemperature>
+  <ToleranceResistanceDeviation unit="%">0.1</ToleranceResistanceDeviation>
+  <SettlingTime unit="s">10</SettlingTime>
+  <SelectedOutput>DC400A</SelectedOutput>
+  <UseTwoWireMethod>false</UseTwoWireMethod>
+  <SelectableTapChangerTypes>
+    <TCType>None</TCType>
+  </SelectableTapChangerTypes>
+  <PreRecordingTime unit="s">0.015</PreRecordingTime>
+  <RecordingTime unit="s">0.1</RecordingTime>
+  <NoiseSuppression>true</NoiseSuppression>
+  <DynamicShorting>true</DynamicShorting>
+  <StartTapIndex>-1</StartTapIndex>
+  <StopTapIndex>-1</StopTapIndex>
+  <SelectedDocumentationTapIndex>-1</SelectedDocumentationTapIndex>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories />
+    <CPTD1Connected>false</CPTD1Connected>
+    <CPSB1Connected>false</CPSB1Connected>
+    <CPTD1SerialNumber />
+    <CPTD1CalibrationDate />
+  </TestSetInfo>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <Measurements>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Fail</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABfailBCfailCAok</ResultId>
+          <Message>Poor phase comparison for Phase B.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Fail</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T09:14:22</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">14</IDC>
+        <VDC unit="V">0.072069399999999992</VDC>
+        <ResistanceMeasured unit="Ohm">0.0051478142857142853</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0059766123857142852</ResistanceCorrected>
+        <Deviation unit="%">0.06924419750276023</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">14</IDC>
+        <VDC unit="V">0.1085111</VDC>
+        <ResistanceMeasured unit="Ohm">0.007750792857142857</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0089986705071428575</ResistanceCorrected>
+        <Deviation unit="%">0.094921164747185927</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">29</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">14</IDC>
+        <VDC unit="V">0.07209829999999999</VDC>
+        <ResistanceMeasured unit="Ohm">0.00514987857142857</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.00597900902142857</ResistanceCorrected>
+        <Deviation unit="%">0.067962767499385457</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">30</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>-1</TapChangerEntryId>
+      <TapName />
+      <Direction>None</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>NotPossible</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>Partial</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>NotAllPhaseMeasured</ResultId>
+          <Message>Measurement settings or parameters are overloaded or out of range.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T09:16:23</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">NaN</IDC>
+        <VDC unit="V">NaN</VDC>
+        <ResistanceMeasured unit="Ohm">NaN</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">NaN</ResistanceCorrected>
+        <Deviation unit="%">NaN</Deviation>
+        <KeepResult>false</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">NaN</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">14</IDC>
+        <VDC unit="V">0.10856829999999999</VDC>
+        <ResistanceMeasured unit="Ohm">0.0077548785714285709</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.00900341402142857</ResistanceCorrected>
+        <Deviation unit="%">0.08225449152816644</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">29</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">NaN</IDC>
+        <VDC unit="V">NaN</VDC>
+        <ResistanceMeasured unit="Ohm">NaN</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">NaN</ResistanceCorrected>
+        <Deviation unit="%">NaN</Deviation>
+        <KeepResult>false</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">NaN</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>-1</TapChangerEntryId>
+      <TapName />
+      <Direction>None</Direction>
+    </TransformerWindingResistanceMeasurement>
+  </Measurements>
+  <DRMAssessment>
+    <Assessment>None</Assessment>
+    <ManualAssessment>None</ManualAssessment>
+    <HasAssessment>false</HasAssessment>
+    <ManualAssessmentActive>true</ManualAssessmentActive>
+    <ResultState>Partial</ResultState>
+    <AggregatedAssessmentResults />
+    <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+  </DRMAssessment>
+</tTransformerWindingResistanceTest>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<tDGATest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="11e3dc3f-2ae8-401b-b7a9-aae800900897" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-10-16T01:44:32</Created>
+  <CreatedBy>DESKTOP-9C2UOFI\sis-ujh</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T03:44:51.9660721Z</LastModified>
+  <LastModifiedBy>DESKTOP-9C2UOFI\sis-ujh</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>0258b66b-bf40-4ac6-9c90-4440fc32b179</TestId>
+  <TestIndex>18</TestIndex>
+  <Comment />
+  <AssetId>b9082f7c-beea-4795-98b2-aad000e07417</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>0001-01-01T00:00:00</ExecutionDate>
+  <Name>Oil Analysis</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>1</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>false</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>true</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>Unknown</Assessment>
+  <ResultState>Partial</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <DeviceUnderTest>Transformer</DeviceUnderTest>
+  <OilSampleTemperature unit="C">20</OilSampleTemperature>
+  <TopOilTemperature unit="C">NaN</TopOilTemperature>
+  <ExpansionTankContamination>None</ExpansionTankContamination>
+  <OilSampleFacilityContamination>None</OilSampleFacilityContamination>
+  <TypeOfTapChanger />
+  <SampleDate xsi:nil="true" />
+  <EthaneC2H6 unit="PPM">88</EthaneC2H6>
+  <MethaneCH4 unit="PPM">39</MethaneCH4>
+  <AcetyleneC2H2 unit="PPM">1</AcetyleneC2H2>
+  <CarbonMonoxidCO unit="PPM">212</CarbonMonoxidCO>
+  <HydrogenH2 unit="PPM">5</HydrogenH2>
+  <EthyleneC2H4 unit="PPM">6</EthyleneC2H4>
+  <CarbonDioxideCO2 unit="PPM">1648</CarbonDioxideCO2>
+  <NitrogenN2 unit="PPM">17854</NitrogenN2>
+  <OxygenO2 unit="PPM">7853</OxygenO2>
+  <GasInOilAnalysisResult>None</GasInOilAnalysisResult>
+  <GasInOilComment />
+  <GasRatiosStandard />
+  <GasRatiosComment />
+  <H2OMeas unit="PPM">NaN</H2OMeas>
+  <H2Oat20Deg unit="PPM">NaN</H2Oat20Deg>
+  <RelativeSaturation unit="%">NaN</RelativeSaturation>
+  <WaterContentAssessment>None</WaterContentAssessment>
+  <PowerfactorStandard />
+  <PowerfactorAt20Deg unit="DissipationFactor">NaN</PowerfactorAt20Deg>
+  <PowerfactorAt100Deg unit="DissipationFactor">NaN</PowerfactorAt100Deg>
+  <PowerfactorAssessment>None</PowerfactorAssessment>
+  <InterfacialTension unit="nN/m">NaN</InterfacialTension>
+  <NeutralizationValue unit="mgKOH/g">NaN</NeutralizationValue>
+  <ParticleCount />
+  <ColorIndex>0</ColorIndex>
+  <ChemicalAssessment>None</ChemicalAssessment>
+  <ConductivityMeasuredValue unit="pS/m">NaN</ConductivityMeasuredValue>
+  <ConductivityTestTemperature unit="C">NaN</ConductivityTestTemperature>
+  <FieldStrength unit="V/m">0</FieldStrength>
+  <ConductivityAssessment>None</ConductivityAssessment>
+  <BreakdownVoltageStandard />
+  <BreakdownVoltageMeasuredValue unit="V">NaN</BreakdownVoltageMeasuredValue>
+  <BreakdownVoltageTestTemperature unit="C">NaN</BreakdownVoltageTestTemperature>
+  <BreakdownVoltageAssessment>None</BreakdownVoltageAssessment>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <Measurements />
+  <CyclopropaneC3H6 unit="PPM">NaN</CyclopropaneC3H6>
+  <PropaneC3H8 unit="PPM">NaN</PropaneC3H8>
+  <OilTypeComment />
+  <SamplingPoint>None</SamplingPoint>
+  <AnalyzedBy>OilLab</AnalyzedBy>
+  <AnalyzedByName />
+  <AnalyzedByDescription />
+  <UseC3Hydrocarbons>false</UseC3Hydrocarbons>
+</tDGATest>

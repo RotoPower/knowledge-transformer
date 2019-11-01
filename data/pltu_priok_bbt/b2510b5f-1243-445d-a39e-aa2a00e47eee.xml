@@ -1,0 +1,2767 @@
+<?xml version="1.0"?>
+<tTransformerWindingResistanceTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="b2510b5f-1243-445d-a39e-aa2a00e47eee" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-04-09T06:52:04</Created>
+  <CreatedBy>LAPTOP-5KD6C6FJ\hp</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T09:08:15.0722637Z</LastModified>
+  <LastModifiedBy>LAPTOP-5KD6C6FJ\hp</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>13eec0bb-52b6-40c4-879c-052a835a129b</TestId>
+  <TestIndex>7</TestIndex>
+  <Comment />
+  <AssetId>2d271f12-4fcc-4f56-b380-aa2400e4ecae</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-04-09T08:06:28</ExecutionDate>
+  <Name>(2) DC Winding Resistance Prim</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>2</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>true</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>false</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>Pass</Assessment>
+  <ResultState>All</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <UseCPSB1>true</UseCPSB1>
+  <SwitchingMode>AutoSwitchingOfTapsAndPhases</SwitchingMode>
+  <UpDownTest>true</UpDownTest>
+  <AutomaticResult>true</AutomaticResult>
+  <UseTemperatureCorrection>false</UseTemperatureCorrection>
+  <ShowTRTapCheckResults>true</ShowTRTapCheckResults>
+  <TapTime unit="s">5</TapTime>
+  <ImpulseTime unit="s">2</ImpulseTime>
+  <TestCurrent unit="A">3</TestCurrent>
+  <Winding>Primary</Winding>
+  <WindingVectorType>D</WindingVectorType>
+  <VectorGroup>D;YN_1</VectorGroup>
+  <NameplateConductorMaterial>Copper</NameplateConductorMaterial>
+  <Phase>PhaseC</Phase>
+  <TapChanger>OLTC</TapChanger>
+  <NameplateWindingTemperature unit="C">NaN</NameplateWindingTemperature>
+  <ReferenceTemperature unit="C">75</ReferenceTemperature>
+  <WindingTemperature unit="C">34</WindingTemperature>
+  <TestWindingTemperature unit="C">NaN</TestWindingTemperature>
+  <ToleranceResistanceDeviation unit="%">0.1</ToleranceResistanceDeviation>
+  <SettlingTime unit="s">10</SettlingTime>
+  <SelectedOutput>DC6A</SelectedOutput>
+  <UseTwoWireMethod>false</UseTwoWireMethod>
+  <SelectableTapChangerTypes>
+    <TCType>OLTC</TCType>
+  </SelectableTapChangerTypes>
+  <PreRecordingTime unit="s">0.015</PreRecordingTime>
+  <RecordingTime unit="s">0.1</RecordingTime>
+  <NoiseSuppression>true</NoiseSuppression>
+  <DynamicShorting>true</DynamicShorting>
+  <StartTapIndex>0</StartTapIndex>
+  <StopTapIndex>16</StopTapIndex>
+  <SelectedDocumentationTapIndex>-1</SelectedDocumentationTapIndex>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories />
+    <CPTD1Connected>false</CPTD1Connected>
+    <CPSB1Connected>true</CPSB1Connected>
+    <CPTD1SerialNumber />
+    <CPTD1CalibrationDate />
+  </TestSetInfo>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <Measurements>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:50:01</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.259965</VDC>
+        <ResistanceMeasured unit="Ohm">0.086655</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.086655</ResistanceCorrected>
+        <Deviation unit="%">0.077954913020605865</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">33</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.25995500000000005</VDC>
+        <ResistanceMeasured unit="Ohm">0.0866545551518384</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0866545551518384</ResistanceCorrected>
+        <Deviation unit="%">0.096698070768641564</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">38</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0002</IDC>
+        <VDC unit="V">0.257585</VDC>
+        <ResistanceMeasured unit="Ohm">0.085855942937137525</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085855942937137525</ResistanceCorrected>
+        <Deviation unit="%">0.087977066871069987</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">NaN</Ripple>
+        <Slope unit="A/s">NaN</Slope>
+        <Time unit="s">39</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>0</TapChangerEntryId>
+      <TapName>1</TapName>
+      <Direction>None</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:50:29</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.256305</VDC>
+        <ResistanceMeasured unit="Ohm">0.085435</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085435</ResistanceCorrected>
+        <Deviation unit="%">0.07860875899119435</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.25</Ripple>
+        <Slope unit="A/s">-0.0902</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.256485</VDC>
+        <ResistanceMeasured unit="Ohm">0.085497849928330941</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085497849928330941</ResistanceCorrected>
+        <Deviation unit="%">0.070228828934282284</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.75</Ripple>
+        <Slope unit="A/s">-0.079300000000000009</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.253985</VDC>
+        <ResistanceMeasured unit="Ohm">0.084661666666666677</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084661666666666677</ResistanceCorrected>
+        <Deviation unit="%">0.082682048152427079</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.06</Ripple>
+        <Slope unit="A/s">-0.087600000000000011</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>1</TapChangerEntryId>
+      <TapName>2</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:50:54</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.252685</VDC>
+        <ResistanceMeasured unit="Ohm">0.0842311410380346</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0842311410380346</ResistanceCorrected>
+        <Deviation unit="%">0.0910494438066678</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.37</Ripple>
+        <Slope unit="A/s">-0.0999</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.25285</VDC>
+        <ResistanceMeasured unit="Ohm">0.084280523982533911</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084280523982533911</ResistanceCorrected>
+        <Deviation unit="%">0.093740617273785354</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.8</Ripple>
+        <Slope unit="A/s">-0.039</Slope>
+        <Time unit="s">30</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.250465</VDC>
+        <ResistanceMeasured unit="Ohm">0.083488333333333331</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083488333333333331</ResistanceCorrected>
+        <Deviation unit="%">0.0878383773856184</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.77</Ripple>
+        <Slope unit="A/s">-0.042600000000000006</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>2</TapChangerEntryId>
+      <TapName>3</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:51:35</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24891000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.08297</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.08297</ResistanceCorrected>
+        <Deviation unit="%">0.088385360170351035</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.05</Ripple>
+        <Slope unit="A/s">-0.1766</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.249235</VDC>
+        <ResistanceMeasured unit="Ohm">0.083075564147861741</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083075564147861741</ResistanceCorrected>
+        <Deviation unit="%">0.090312481184895432</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.09</Ripple>
+        <Slope unit="A/s">-0.0415</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.24653000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.082173927535748814</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.082173927535748814</ResistanceCorrected>
+        <Deviation unit="%">0.079713553732108089</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1</Ripple>
+        <Slope unit="A/s">-0.048700000000000007</Slope>
+        <Time unit="s">36</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>3</TapChangerEntryId>
+      <TapName>4</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:52:10</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24539500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.081798333333333348</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.081798333333333348</ResistanceCorrected>
+        <Deviation unit="%">0.079462102689475955</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.74</Ripple>
+        <Slope unit="A/s">-0.1504</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24569000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.081896666666666673</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.081896666666666673</ResistanceCorrected>
+        <Deviation unit="%">0.077334798624262291</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.72</Ripple>
+        <Slope unit="A/s">-0.036500000000000005</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24284000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.080946666666666681</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080946666666666681</ResistanceCorrected>
+        <Deviation unit="%">0.066682582618682318</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.91</Ripple>
+        <Slope unit="A/s">-0.054400000000000004</Slope>
+        <Time unit="s">29</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>4</TapChangerEntryId>
+      <TapName>5</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:52:50</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.24198000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.080662688756291887</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080662688756291887</ResistanceCorrected>
+        <Deviation unit="%">0.075212148772862975</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.8</Ripple>
+        <Slope unit="A/s">-0.1433</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.242155</VDC>
+        <ResistanceMeasured unit="Ohm">0.080715642811906269</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080715642811906269</ResistanceCorrected>
+        <Deviation unit="%">0.081798090754570119</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.12</Ripple>
+        <Slope unit="A/s">-0.066200000000000009</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23961000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.07987000000000001</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.07987000000000001</ResistanceCorrected>
+        <Deviation unit="%">0.0722103536168417</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.88</Ripple>
+        <Slope unit="A/s">-0.0468</Slope>
+        <Time unit="s">35</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>5</TapChangerEntryId>
+      <TapName>6</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:53:12</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23879000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.079596666666666677</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.079596666666666677</ResistanceCorrected>
+        <Deviation unit="%">0.091778991713775682</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.78</Ripple>
+        <Slope unit="A/s">-0.14200000000000002</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0003</IDC>
+        <VDC unit="V">0.23896</VDC>
+        <ResistanceMeasured unit="Ohm">0.079645368796453689</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.079645368796453689</ResistanceCorrected>
+        <Deviation unit="%">0.071551004468739521</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.69000000000000006</Ripple>
+        <Slope unit="A/s">-0.035</Slope>
+        <Time unit="s">17</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23668000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.078893333333333343</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078893333333333343</ResistanceCorrected>
+        <Deviation unit="%">0.079107634851860453</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.64</Ripple>
+        <Slope unit="A/s">-0.033600000000000005</Slope>
+        <Time unit="s">16</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>6</TapChangerEntryId>
+      <TapName>7</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:53:38</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.236385</VDC>
+        <ResistanceMeasured unit="Ohm">0.078797626587552919</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078797626587552919</ResistanceCorrected>
+        <Deviation unit="%">0.087617063778777649</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.6500000000000001</Ripple>
+        <Slope unit="A/s">-0.12140000000000001</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.23552</VDC>
+        <ResistanceMeasured unit="Ohm">0.078504049865004491</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078504049865004491</ResistanceCorrected>
+        <Deviation unit="%">0.078604661043946145</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.70000000000000007</Ripple>
+        <Slope unit="A/s">-0.0364</Slope>
+        <Time unit="s">19</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23324000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.077746666666666672</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.077746666666666672</ResistanceCorrected>
+        <Deviation unit="%">0.09417632249020258</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.71</Ripple>
+        <Slope unit="A/s">-0.039400000000000004</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>7</TapChangerEntryId>
+      <TapName>8</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:54:15</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23038000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.076793333333333338</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.076793333333333338</ResistanceCorrected>
+        <Deviation unit="%">0.072625700797379622</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.21</Ripple>
+        <Slope unit="A/s">-0.24980000000000002</Slope>
+        <Time unit="s">33</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23000500000000001</VDC>
+        <ResistanceMeasured unit="Ohm">0.076668333333333338</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.076668333333333338</ResistanceCorrected>
+        <Deviation unit="%">0.095654253353338881</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.48</Ripple>
+        <Slope unit="A/s">-0.1592</Slope>
+        <Time unit="s">31</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.22827000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.07609</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.07609</ResistanceCorrected>
+        <Deviation unit="%">0.072290740213376559</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.4000000000000001</Ripple>
+        <Slope unit="A/s">-0.15230000000000002</Slope>
+        <Time unit="s">32</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>8</TapChangerEntryId>
+      <TapName>9</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:54:38</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">2.9997000000000003</IDC>
+        <VDC unit="V">0.23574000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.0785878587858786</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0785878587858786</ResistanceCorrected>
+        <Deviation unit="%">0.094228306151089569</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.67</Ripple>
+        <Slope unit="A/s">-0.1184</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.235685</VDC>
+        <ResistanceMeasured unit="Ohm">0.078561666666666669</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078561666666666669</ResistanceCorrected>
+        <Deviation unit="%">0.095466406432320738</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.96</Ripple>
+        <Slope unit="A/s">-0.054000000000000006</Slope>
+        <Time unit="s">16</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.233385</VDC>
+        <ResistanceMeasured unit="Ohm">0.077795</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.077795</ResistanceCorrected>
+        <Deviation unit="%">0.066430943962281219</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.09</Ripple>
+        <Slope unit="A/s">-0.059100000000000007</Slope>
+        <Time unit="s">17</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>9</TapChangerEntryId>
+      <TapName>10</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:55:08</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23922000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.07974</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.07974</ResistanceCorrected>
+        <Deviation unit="%">0.08027078820633804</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.55</Ripple>
+        <Slope unit="A/s">-0.10850000000000001</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23899</VDC>
+        <ResistanceMeasured unit="Ohm">0.079663333333333336</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.079663333333333336</ResistanceCorrected>
+        <Deviation unit="%">0.082900474595204443</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.65</Ripple>
+        <Slope unit="A/s">-0.0344</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23655</VDC>
+        <ResistanceMeasured unit="Ohm">0.07885</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.07885</ResistanceCorrected>
+        <Deviation unit="%">0.091871252367670131</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.79</Ripple>
+        <Slope unit="A/s">-0.0417</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>10</TapChangerEntryId>
+      <TapName>11</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:55:34</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.24285500000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.080948968367721072</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080948968367721072</ResistanceCorrected>
+        <Deviation unit="%">0.085698113896826023</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.18</Ripple>
+        <Slope unit="A/s">-0.1562</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.24237000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.080787307089763685</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080787307089763685</ResistanceCorrected>
+        <Deviation unit="%">0.085907355035819144</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.81</Ripple>
+        <Slope unit="A/s">-0.034100000000000005</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.23970500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.07989900336655445</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.07989900336655445</ResistanceCorrected>
+        <Deviation unit="%">0.078080288782644836</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.94000000000000006</Ripple>
+        <Slope unit="A/s">-0.035300000000000005</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>11</TapChangerEntryId>
+      <TapName>12</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:56:01</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24583000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.08194333333333334</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.08194333333333334</ResistanceCorrected>
+        <Deviation unit="%">0.07932633634368802</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.6300000000000001</Ripple>
+        <Slope unit="A/s">-0.13840000000000002</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0002</IDC>
+        <VDC unit="V">0.24569500000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.081892873808412786</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.081892873808412786</ResistanceCorrected>
+        <Deviation unit="%">0.0925593043707762</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.62</Ripple>
+        <Slope unit="A/s">-0.0313</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.242795</VDC>
+        <ResistanceMeasured unit="Ohm">0.080934364478815954</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080934364478815954</ResistanceCorrected>
+        <Deviation unit="%">0.074191620468622155</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.76</Ripple>
+        <Slope unit="A/s">-0.0352</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>12</TapChangerEntryId>
+      <TapName>13</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:56:28</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.24943</VDC>
+        <ResistanceMeasured unit="Ohm">0.083146104870162343</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083146104870162343</ResistanceCorrected>
+        <Deviation unit="%">0.0721630885802016</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.94</Ripple>
+        <Slope unit="A/s">-0.13440000000000002</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24929</VDC>
+        <ResistanceMeasured unit="Ohm">0.083096666666666666</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083096666666666666</ResistanceCorrected>
+        <Deviation unit="%">0.096976410606264274</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.63</Ripple>
+        <Slope unit="A/s">-0.030900000000000004</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0002</IDC>
+        <VDC unit="V">0.246735</VDC>
+        <ResistanceMeasured unit="Ohm">0.082239517365508968</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.082239517365508968</ResistanceCorrected>
+        <Deviation unit="%">0.036478599221800856</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.64</Ripple>
+        <Slope unit="A/s">-0.0322</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>13</TapChangerEntryId>
+      <TapName>14</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:56:56</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.252815</VDC>
+        <ResistanceMeasured unit="Ohm">0.084271666666666675</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084271666666666675</ResistanceCorrected>
+        <Deviation unit="%">0.095555886533738033</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.79</Ripple>
+        <Slope unit="A/s">-0.12340000000000001</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.25279</VDC>
+        <ResistanceMeasured unit="Ohm">0.084260524649178353</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084260524649178353</ResistanceCorrected>
+        <Deviation unit="%">0.091647286438023556</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.62</Ripple>
+        <Slope unit="A/s">-0.0262</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25038000000000005</VDC>
+        <ResistanceMeasured unit="Ohm">0.08346000000000002</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.08346000000000002</ResistanceCorrected>
+        <Deviation unit="%">0.069261449924074014</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.63</Ripple>
+        <Slope unit="A/s">-0.031000000000000003</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>14</TapChangerEntryId>
+      <TapName>15</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:57:23</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.25658000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.085523815872804249</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085523815872804249</ResistanceCorrected>
+        <Deviation unit="%">0.0785099789304411</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.53</Ripple>
+        <Slope unit="A/s">-0.1062</Slope>
+        <Time unit="s">20</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25656500000000004</VDC>
+        <ResistanceMeasured unit="Ohm">0.085521666666666676</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085521666666666676</ResistanceCorrected>
+        <Deviation unit="%">0.083850083850101065</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.63</Ripple>
+        <Slope unit="A/s">-0.0371</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25392000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.08464</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.08464</ResistanceCorrected>
+        <Deviation unit="%">0.090049400233871424</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.65</Ripple>
+        <Slope unit="A/s">-0.0318</Slope>
+        <Time unit="s">22</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>15</TapChangerEntryId>
+      <TapName>16</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:57:47</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.260125</VDC>
+        <ResistanceMeasured unit="Ohm">0.0867112237074569</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0867112237074569</ResistanceCorrected>
+        <Deviation unit="%">0.0880463748053284</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.98</Ripple>
+        <Slope unit="A/s">-0.1895</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">2.9998</IDC>
+        <VDC unit="V">0.25999</VDC>
+        <ResistanceMeasured unit="Ohm">0.086669111274084942</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.086669111274084942</ResistanceCorrected>
+        <Deviation unit="%">0.0956745133963599</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">1.06</Ripple>
+        <Slope unit="A/s">-0.0313</Slope>
+        <Time unit="s">27</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0002</IDC>
+        <VDC unit="V">0.25731000000000004</VDC>
+        <ResistanceMeasured unit="Ohm">0.0857642823811746</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0857642823811746</ResistanceCorrected>
+        <Deviation unit="%">0.091132287703743486</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">0.69000000000000006</Ripple>
+        <Slope unit="A/s">-0.038900000000000004</Slope>
+        <Time unit="s">19</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>16</TapChangerEntryId>
+      <TapName>17</TapName>
+      <Direction>Up</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:58:19</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.256825</VDC>
+        <ResistanceMeasured unit="Ohm">0.085608333333333342</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085608333333333342</ResistanceCorrected>
+        <Deviation unit="%">0.091501995522236257</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.29</Ripple>
+        <Slope unit="A/s">-0.3275</Slope>
+        <Time unit="s">25</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25666500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.085555</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085555</ResistanceCorrected>
+        <Deviation unit="%">0.089610971499820558</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.34</Ripple>
+        <Slope unit="A/s">-0.25770000000000004</Slope>
+        <Time unit="s">25</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">2.9997000000000003</IDC>
+        <VDC unit="V">0.25403000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.0846851351801847</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0846851351801847</ResistanceCorrected>
+        <Deviation unit="%">0.096314363479721443</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.38</Ripple>
+        <Slope unit="A/s">-0.2579</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>15</TapChangerEntryId>
+      <TapName>16</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:58:50</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25322</VDC>
+        <ResistanceMeasured unit="Ohm">0.084406666666666672</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084406666666666672</ResistanceCorrected>
+        <Deviation unit="%">0.092804675776014811</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.29</Ripple>
+        <Slope unit="A/s">-0.316</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.252925</VDC>
+        <ResistanceMeasured unit="Ohm">0.084308333333333332</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084308333333333332</ResistanceCorrected>
+        <Deviation unit="%">0.073173143478699743</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.63</Ripple>
+        <Slope unit="A/s">-0.29710000000000003</Slope>
+        <Time unit="s">29</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">2.9997000000000003</IDC>
+        <VDC unit="V">0.25041</VDC>
+        <ResistanceMeasured unit="Ohm">0.083478347834783473</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083478347834783473</ResistanceCorrected>
+        <Deviation unit="%">0.081220244634883088</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.7</Ripple>
+        <Slope unit="A/s">-0.3053</Slope>
+        <Time unit="s">25</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>14</TapChangerEntryId>
+      <TapName>15</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:59:20</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.250105</VDC>
+        <ResistanceMeasured unit="Ohm">0.083368333333333336</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083368333333333336</ResistanceCorrected>
+        <Deviation unit="%">0.099958017632584273</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">4.12</Ripple>
+        <Slope unit="A/s">-0.36400000000000005</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24961000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.083203333333333337</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083203333333333337</ResistanceCorrected>
+        <Deviation unit="%">0.072134169555382321</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.5300000000000002</Ripple>
+        <Slope unit="A/s">-0.2745</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.247065</VDC>
+        <ResistanceMeasured unit="Ohm">0.082357745258175269</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.082357745258175269</ResistanceCorrected>
+        <Deviation unit="%">0.093821664126036985</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.7</Ripple>
+        <Slope unit="A/s">-0.2888</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>13</TapChangerEntryId>
+      <TapName>14</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T07:59:51</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.24603000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.082007266424452524</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.082007266424452524</ResistanceCorrected>
+        <Deviation unit="%">0.083898392001158228</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">4.16</Ripple>
+        <Slope unit="A/s">-0.3929</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.245845</VDC>
+        <ResistanceMeasured unit="Ohm">0.081948333333333331</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.081948333333333331</ResistanceCorrected>
+        <Deviation unit="%">0.081357035349638451</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.83</Ripple>
+        <Slope unit="A/s">-0.3124</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24306500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.081021666666666672</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.081021666666666672</ResistanceCorrected>
+        <Deviation unit="%">0.052205625469126105</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.58</Ripple>
+        <Slope unit="A/s">-0.3674</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>12</TapChangerEntryId>
+      <TapName>13</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:00:20</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24271500000000001</VDC>
+        <ResistanceMeasured unit="Ohm">0.080905</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080905</ResistanceCorrected>
+        <Deviation unit="%">0.06798096532971698</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.6</Ripple>
+        <Slope unit="A/s">-0.3642</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.242465</VDC>
+        <ResistanceMeasured unit="Ohm">0.080818972700909972</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080818972700909972</ResistanceCorrected>
+        <Deviation unit="%">0.099003774518902077</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.64</Ripple>
+        <Slope unit="A/s">-0.2902</Slope>
+        <Time unit="s">33</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0003</IDC>
+        <VDC unit="V">0.23999</VDC>
+        <ResistanceMeasured unit="Ohm">0.07998866779988667</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.07998866779988667</ResistanceCorrected>
+        <Deviation unit="%">0.095428767865346487</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.52</Ripple>
+        <Slope unit="A/s">-0.2827</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>11</TapChangerEntryId>
+      <TapName>12</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:00:52</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.239355</VDC>
+        <ResistanceMeasured unit="Ohm">0.079785000000000009</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.079785000000000009</ResistanceCorrected>
+        <Deviation unit="%">0.066446421647503584</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.15</Ripple>
+        <Slope unit="A/s">-0.32270000000000004</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23908500000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.079695</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.079695</ResistanceCorrected>
+        <Deviation unit="%">0.085399037247646525</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.5300000000000002</Ripple>
+        <Slope unit="A/s">-0.27540000000000003</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0002</IDC>
+        <VDC unit="V">0.23637000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.078784747683487782</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078784747683487782</ResistanceCorrected>
+        <Deviation unit="%">0.09308623170010133</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.79</Ripple>
+        <Slope unit="A/s">-0.2979</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>10</TapChangerEntryId>
+      <TapName>11</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:01:25</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.23609500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.078695710142995243</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078695710142995243</ResistanceCorrected>
+        <Deviation unit="%">0.093182828945970186</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.34</Ripple>
+        <Slope unit="A/s">-0.3285</Slope>
+        <Time unit="s">25</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23576500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.078588333333333343</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078588333333333343</ResistanceCorrected>
+        <Deviation unit="%">0.083022427654744213</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.44</Ripple>
+        <Slope unit="A/s">-0.268</Slope>
+        <Time unit="s">32</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23318500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.077728333333333344</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.077728333333333344</ResistanceCorrected>
+        <Deviation unit="%">0.086721026646552346</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.43</Ripple>
+        <Slope unit="A/s">-0.26820000000000005</Slope>
+        <Time unit="s">27</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>9</TapChangerEntryId>
+      <TapName>10</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:01:56</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23040000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.076800000000000007</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.076800000000000007</ResistanceCorrected>
+        <Deviation unit="%">0.082470646960541849</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.43</Ripple>
+        <Slope unit="A/s">-0.342</Slope>
+        <Time unit="s">27</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23006000000000001</VDC>
+        <ResistanceMeasured unit="Ohm">0.076686666666666667</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.076686666666666667</ResistanceCorrected>
+        <Deviation unit="%">0.0804295372040853</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.86</Ripple>
+        <Slope unit="A/s">-0.32770000000000005</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.22814500000000001</VDC>
+        <ResistanceMeasured unit="Ohm">0.076045798473384218</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.076045798473384218</ResistanceCorrected>
+        <Deviation unit="%">0.081129675919844324</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.69</Ripple>
+        <Slope unit="A/s">-0.3089</Slope>
+        <Time unit="s">25</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>8</TapChangerEntryId>
+      <TapName>9</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:02:35</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23549000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.078496666666666673</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078496666666666673</ResistanceCorrected>
+        <Deviation unit="%">0.077345318177823863</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">4.17</Ripple>
+        <Slope unit="A/s">-0.404</Slope>
+        <Time unit="s">36</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23539000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.078463333333333343</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078463333333333343</ResistanceCorrected>
+        <Deviation unit="%">0.099847042828016264</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.02</Ripple>
+        <Slope unit="A/s">-0.31770000000000004</Slope>
+        <Time unit="s">47</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23310000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.0777</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0777</ResistanceCorrected>
+        <Deviation unit="%">0.072939460248000465</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">5.51</Ripple>
+        <Slope unit="A/s">-0.5656</Slope>
+        <Time unit="s">34</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>7</TapChangerEntryId>
+      <TapName>8</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:03:04</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3.0002</IDC>
+        <VDC unit="V">0.23883000000000001</VDC>
+        <ResistanceMeasured unit="Ohm">0.079604693020465314</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.079604693020465314</ResistanceCorrected>
+        <Deviation unit="%">0.077851749501034462</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.0100000000000002</Ripple>
+        <Slope unit="A/s">-0.3042</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.23889000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.0796273457551415</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.0796273457551415</ResistanceCorrected>
+        <Deviation unit="%">0.0816480341665704</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.35</Ripple>
+        <Slope unit="A/s">-0.2645</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.23652</VDC>
+        <ResistanceMeasured unit="Ohm">0.078840000000000007</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.078840000000000007</ResistanceCorrected>
+        <Deviation unit="%">0.097245417838176529</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.32</Ripple>
+        <Slope unit="A/s">-0.2595</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>6</TapChangerEntryId>
+      <TapName>7</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:03:36</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24203500000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.080678333333333338</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080678333333333338</ResistanceCorrected>
+        <Deviation unit="%">0.086766103375612857</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.72</Ripple>
+        <Slope unit="A/s">-0.33740000000000003</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">2.9997000000000003</IDC>
+        <VDC unit="V">0.242045</VDC>
+        <ResistanceMeasured unit="Ohm">0.080689735640230686</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080689735640230686</ResistanceCorrected>
+        <Deviation unit="%">0.0907345846564489</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.29</Ripple>
+        <Slope unit="A/s">-0.2558</Slope>
+        <Time unit="s">27</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24000000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.08</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.08</ResistanceCorrected>
+        <Deviation unit="%">0.087155713110931288</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.31</Ripple>
+        <Slope unit="A/s">-0.2569</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>5</TapChangerEntryId>
+      <TapName>6</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:04:05</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24551000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.081836666666666683</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.081836666666666683</ResistanceCorrected>
+        <Deviation unit="%">0.07738992301740133</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.97</Ripple>
+        <Slope unit="A/s">-0.3895</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24564000000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.081880000000000008</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.081880000000000008</ResistanceCorrected>
+        <Deviation unit="%">0.08679168966923001</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.59</Ripple>
+        <Slope unit="A/s">-0.29450000000000004</Slope>
+        <Time unit="s">31</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.24296500000000001</VDC>
+        <ResistanceMeasured unit="Ohm">0.080991033034434473</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.080991033034434473</ResistanceCorrected>
+        <Deviation unit="%">0.088491932828471676</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.77</Ripple>
+        <Slope unit="A/s">-0.3093</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>4</TapChangerEntryId>
+      <TapName>5</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:04:50</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24906000000000003</VDC>
+        <ResistanceMeasured unit="Ohm">0.08302000000000001</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.08302000000000001</ResistanceCorrected>
+        <Deviation unit="%">0.068260756088256436</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">3.8200000000000003</Ripple>
+        <Slope unit="A/s">-0.3542</Slope>
+        <Time unit="s">23</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.24918500000000002</VDC>
+        <ResistanceMeasured unit="Ohm">0.083061666666666673</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083061666666666673</ResistanceCorrected>
+        <Deviation unit="%">0.097692321418474393</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.3000000000000003</Ripple>
+        <Slope unit="A/s">-0.2644</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0003</IDC>
+        <VDC unit="V">0.24649000000000001</VDC>
+        <ResistanceMeasured unit="Ohm">0.082155117821551174</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.082155117821551174</ResistanceCorrected>
+        <Deviation unit="%">0.0772374800643405</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.35</Ripple>
+        <Slope unit="A/s">-0.2586</Slope>
+        <Time unit="s">39</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>3</TapChangerEntryId>
+      <TapName>4</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:05:23</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25267</VDC>
+        <ResistanceMeasured unit="Ohm">0.084223333333333331</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084223333333333331</ResistanceCorrected>
+        <Deviation unit="%">0.081133494281071528</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.87</Ripple>
+        <Slope unit="A/s">-0.3019</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.252755</VDC>
+        <ResistanceMeasured unit="Ohm">0.084248858371387611</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084248858371387611</ResistanceCorrected>
+        <Deviation unit="%">0.091011613873348551</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.2800000000000002</Ripple>
+        <Slope unit="A/s">-0.2528</Slope>
+        <Time unit="s">32</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.250325</VDC>
+        <ResistanceMeasured unit="Ohm">0.083438885370487645</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.083438885370487645</ResistanceCorrected>
+        <Deviation unit="%">0.050597248034067732</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.36</Ripple>
+        <Slope unit="A/s">-0.2605</Slope>
+        <Time unit="s">28</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>2</TapChangerEntryId>
+      <TapName>3</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:05:53</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25617</VDC>
+        <ResistanceMeasured unit="Ohm">0.085390000000000008</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085390000000000008</ResistanceCorrected>
+        <Deviation unit="%">0.080024983409465733</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.93</Ripple>
+        <Slope unit="A/s">-0.3044</Slope>
+        <Time unit="s">21</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.256525</VDC>
+        <ResistanceMeasured unit="Ohm">0.08550548315056164</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.08550548315056164</ResistanceCorrected>
+        <Deviation unit="%">0.091115557098087052</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.15</Ripple>
+        <Slope unit="A/s">-0.24800000000000003</Slope>
+        <Time unit="s">30</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">2.9999000000000002</IDC>
+        <VDC unit="V">0.25401500000000005</VDC>
+        <ResistanceMeasured unit="Ohm">0.084674489149638335</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.084674489149638335</ResistanceCorrected>
+        <Deviation unit="%">0.0635988398036691</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.2</Ripple>
+        <Slope unit="A/s">-0.2474</Slope>
+        <Time unit="s">25</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>1</TapChangerEntryId>
+      <TapName>2</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+    <TransformerWindingResistanceMeasurement>
+      <Assessment>Pass</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>false</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults>
+        <AssessmentResult>
+          <ResultId>LimitABokBCokCAok</ResultId>
+          <Message>Phase comparison for all three phases passes.</Message>
+        </AssessmentResult>
+      </AggregatedAssessmentResults>
+      <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-09T08:06:28</MeasuredDate>
+      <PhaseAResult>
+        <IDC unit="A">3</IDC>
+        <VDC unit="V">0.25967500000000004</VDC>
+        <ResistanceMeasured unit="Ohm">0.086558333333333348</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.086558333333333348</ResistanceCorrected>
+        <Deviation unit="%">0.073683561659887431</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.87</Ripple>
+        <Slope unit="A/s">-0.2931</Slope>
+        <Time unit="s">26</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseAResult>
+      <PhaseBResult>
+        <IDC unit="A">3.0001</IDC>
+        <VDC unit="V">0.260015</VDC>
+        <ResistanceMeasured unit="Ohm">0.086668777707409744</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.086668777707409744</ResistanceCorrected>
+        <Deviation unit="%">0.092876402530328583</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.49</Ripple>
+        <Slope unit="A/s">-0.2833</Slope>
+        <Time unit="s">24</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseBResult>
+      <PhaseCResult>
+        <IDC unit="A">3.0002</IDC>
+        <VDC unit="V">0.25753000000000004</VDC>
+        <ResistanceMeasured unit="Ohm">0.085837610825944946</ResistanceMeasured>
+        <ResistanceCorrected unit="Ohm">0.085837610825944946</ResistanceCorrected>
+        <Deviation unit="%">0.074356386311302813</Deviation>
+        <KeepResult>true</KeepResult>
+        <Ripple unit="%">2.5</Ripple>
+        <Slope unit="A/s">-0.28190000000000004</Slope>
+        <Time unit="s">28</Time>
+        <Timeouted>false</Timeouted>
+      </PhaseCResult>
+      <CurveAResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseA</Phase>
+        <Error>false</Error>
+      </CurveAResult>
+      <CurveBResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseB</Phase>
+        <Error>false</Error>
+      </CurveBResult>
+      <CurveCResult>
+        <Min>1.7976931348623157E+308</Min>
+        <Max>-1.7976931348623157E+308</Max>
+        <NumberOfTotalTransientSamples>0</NumberOfTotalTransientSamples>
+        <NumberOfPreTransientSamples>0</NumberOfPreTransientSamples>
+        <SamplingRate>3000</SamplingRate>
+        <Phase>PhaseC</Phase>
+        <Error>false</Error>
+      </CurveCResult>
+      <TapChangerEntryId>0</TapChangerEntryId>
+      <TapName>1</TapName>
+      <Direction>Down</Direction>
+    </TransformerWindingResistanceMeasurement>
+  </Measurements>
+  <DRMAssessment>
+    <Assessment>None</Assessment>
+    <ManualAssessment>None</ManualAssessment>
+    <HasAssessment>false</HasAssessment>
+    <ManualAssessmentActive>true</ManualAssessmentActive>
+    <ResultState>All</ResultState>
+    <AggregatedAssessmentResults />
+    <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+  </DRMAssessment>
+</tTransformerWindingResistanceTest>

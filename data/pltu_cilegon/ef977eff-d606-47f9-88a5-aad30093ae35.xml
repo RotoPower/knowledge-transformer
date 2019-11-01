@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<tExcitingCurrentTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="ef977eff-d606-47f9-88a5-aad30093ae35" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-09-25T01:58:18</Created>
+  <CreatedBy>DESKTOP-9C2UOFI\sis-ujh</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T03:44:51.9660721Z</LastModified>
+  <LastModifiedBy>DESKTOP-9C2UOFI\sis-ujh</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>43a5020b-ee74-4a49-ae44-4afe3d404d79</TestId>
+  <TestIndex>1</TestIndex>
+  <Comment />
+  <AssetId>b9082f7c-beea-4795-98b2-aad000e07417</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-09-25T02:38:56</ExecutionDate>
+  <Name>Exciting Current</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>1</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>false</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>true</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>None</Assessment>
+  <ResultState>All</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <TestVoltage unit="V">8000</TestVoltage>
+  <ReferenceVoltage unit="V">10000</ReferenceVoltage>
+  <UseReferenceVoltage>false</UseReferenceVoltage>
+  <WindingVectorType>D</WindingVectorType>
+  <VectorGroup>D;YN_11</VectorGroup>
+  <Phase>PhaseC</Phase>
+  <Averaging>2</Averaging>
+  <Bandwidth>_5Hz</Bandwidth>
+  <UseBeeper>true</UseBeeper>
+  <EnableShieldCheck>true</EnableShieldCheck>
+  <TapChanger>None</TapChanger>
+  <SelectableTapChangerTypes>
+    <TCType>None</TCType>
+  </SelectableTapChangerTypes>
+  <StartTapIndex>-1</StartTapIndex>
+  <StopTapIndex>-1</StopTapIndex>
+  <SelectedDocumentationTapIndex>-1</SelectedDocumentationTapIndex>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories>
+      <Accessory>
+        <Name>CP TD1</Name>
+        <SerialNumber>QD754W</SerialNumber>
+        <CalibrationDate>Not available</CalibrationDate>
+      </Accessory>
+    </Accessories>
+    <CPTD1Connected>true</CPTD1Connected>
+    <CPSB1Connected>false</CPSB1Connected>
+    <CPTD1SerialNumber>QD754W</CPTD1SerialNumber>
+    <CPTD1CalibrationDate>Not available</CPTD1CalibrationDate>
+  </TestSetInfo>
+  <Measurements>
+    <ExcitingCurrentMeasurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-09-25T02:38:56</MeasuredDate>
+      <PhaseAResult>
+        <VOut unit="V">7994</VOut>
+        <IOut unit="A">0.429369166</IOut>
+        <IOutCorrected unit="A">0.429369166</IOutCorrected>
+        <IPhase unit="°">-36.232068730511216</IPhase>
+        <WattLoss unit="W">2768.6570492991746</WattLoss>
+        <WattLossCorrected unit="W">2768.6570492991746</WattLossCorrected>
+        <Reactance unit="Ohm">11002.7027</Reactance>
+        <ZMeasured unit="Ohm">
+          <real>15015.6455</real>
+          <imag>11002.7027</imag>
+        </ZMeasured>
+        <KeepResult>true</KeepResult>
+      </PhaseAResult>
+      <PhaseBResult>
+        <VOut unit="V">7991</VOut>
+        <IOut unit="A">0.315526674</IOut>
+        <IOutCorrected unit="A">0.315526674</IOutCorrected>
+        <IPhase unit="°">-38.053915488595486</IPhase>
+        <WattLoss unit="W">1985.4079416128968</WattLoss>
+        <WattLossCorrected unit="W">1985.4079416128968</WattLossCorrected>
+        <Reactance unit="Ohm">15610.577800000001</Reactance>
+        <ZMeasured unit="Ohm">
+          <real>19941.9202</real>
+          <imag>15610.577800000001</imag>
+        </ZMeasured>
+        <KeepResult>true</KeepResult>
+      </PhaseBResult>
+      <PhaseCResult>
+        <VOut unit="V">7995</VOut>
+        <IOut unit="A">0.42787711500000003</IOut>
+        <IOutCorrected unit="A">0.42787711500000003</IOutCorrected>
+        <IPhase unit="°">-35.9268970086402</IPhase>
+        <WattLoss unit="W">2770.111288259413</WattLoss>
+        <WattLossCorrected unit="W">2770.111288259413</WattLossCorrected>
+        <Reactance unit="Ohm">10962.213300000001</Reactance>
+        <ZMeasured unit="Ohm">
+          <real>15128.746500000001</real>
+          <imag>10962.213300000001</imag>
+        </ZMeasured>
+        <KeepResult>true</KeepResult>
+      </PhaseCResult>
+      <TapChangerEntryId>-1</TapChangerEntryId>
+      <TapName />
+    </ExcitingCurrentMeasurement>
+  </Measurements>
+</tExcitingCurrentTest>

@@ -1,0 +1,889 @@
+<?xml version="1.0"?>
+<tLeakageReactanceTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="6cc2fd61-9c62-4907-a233-aa2900f6fe38" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-04-08T07:59:28</Created>
+  <CreatedBy>LAPTOP-5KD6C6FJ\hp</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T09:08:15.0722637Z</LastModified>
+  <LastModifiedBy>LAPTOP-5KD6C6FJ\hp</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>68290af1-b6df-4086-a2ab-6482079a46e8</TestId>
+  <TestIndex>5</TestIndex>
+  <Comment />
+  <AssetId>2d271f12-4fcc-4f56-b380-aa2400e4ecae</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-04-08T08:20:50</ExecutionDate>
+  <Name>Short Circuit Impedance Prim-Sec</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>1</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>true</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>false</UseJobConditions>
+  <AmbientTemperature unit="C">NaN</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>Empty</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">NaN</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>Pass</Assessment>
+  <ResultState>All</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <TestCurrent unit="A">1</TestCurrent>
+  <WindingVectorType>D</WindingVectorType>
+  <VectorGroup>D;YN_1</VectorGroup>
+  <Perform3PTest>true</Perform3PTest>
+  <PerformPerPhaseTest>true</PerformPerPhaseTest>
+  <ShowFRSL3P>false</ShowFRSL3P>
+  <ShowFRSLPerPhase>false</ShowFRSLPerPhase>
+  <ShowFRSLSinglePhase>false</ShowFRSLSinglePhase>
+  <NameplateZPUPercent unit="%">7.46</NameplateZPUPercent>
+  <NameplatePk unit="W">NaN</NameplatePk>
+  <NameplateBasePower unit="VA">15000000</NameplateBasePower>
+  <NameplateBaseVoltage unit="V">15750</NameplateBaseVoltage>
+  <UseTemperatureCorrection>true</UseTemperatureCorrection>
+  <WindingTemperature unit="C">36</WindingTemperature>
+  <TestWindingTemperature unit="C">36</TestWindingTemperature>
+  <JobWindingTemperature unit="C">NaN</JobWindingTemperature>
+  <ReferenceTemperature unit="C">75</ReferenceTemperature>
+  <NameplateConductorMaterial>Copper</NameplateConductorMaterial>
+  <SelectedOLTCIndex>4</SelectedOLTCIndex>
+  <SelectedDETCIndex>-1</SelectedDETCIndex>
+  <TestType>PRIMSEC</TestType>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <TestSetInfo>
+    <TestSetName>CPC100</TestSetName>
+    <SerialNumber>QH784X</SerialNumber>
+    <SoftwareVersion>4.40       (3358)</SoftwareVersion>
+    <CalibrationDate>04/20/2015 10:50:30</CalibrationDate>
+    <Accessories />
+    <CPTD1Connected>false</CPTD1Connected>
+    <CPSB1Connected>false</CPSB1Connected>
+    <CPTD1SerialNumber />
+    <CPTD1CalibrationDate />
+  </TestSetInfo>
+  <Measurements>
+    <LeakageReactanceMeasurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T08:11:45</MeasuredDate>
+      <MeasurementType>ThreePhaseEquivalent</MeasurementType>
+      <RKAssessmentResult>
+        <Assessment>NotPossible</Assessment>
+        <ManualAssessment>None</ManualAssessment>
+        <HasAssessment>false</HasAssessment>
+        <ManualAssessmentActive>false</ManualAssessmentActive>
+        <ResultState>All</ResultState>
+        <AggregatedAssessmentResults />
+        <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+        <RkAverage unit="Ohm">1.2706229722440001</RkAverage>
+        <DevRkPhaseAPercentage unit="%">0.73374647788199909</DevRkPhaseAPercentage>
+        <DevRkPhaseBPercentage unit="%">-0.02552075698956556</DevRkPhaseBPercentage>
+        <DevRkPhaseCPercentage unit="%">-0.70822572089245106</DevRkPhaseCPercentage>
+      </RKAssessmentResult>
+      <PhaseResults>
+        <PhaseResult>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <FrequencyResults>
+            <FrequencyResult>
+              <Frequency unit="Hz">15</Frequency>
+              <VACSel unit="V">0.75104500000000007</VACSel>
+              <IACSel unit="A">0.98698000000000008</IACSel>
+              <VACPhaseSel unit="°">78.18</VACPhaseSel>
+              <WattLoss unit="W">0.15183932442065456</WattLoss>
+              <Rk unit="Ohm">0.15587180270000003</Rk>
+              <RkCorrected unit="Ohm">0.17769385507800003</RkCorrected>
+              <Zk unit="Ohm">0.765720543717677</Zk>
+              <Xk unit="Ohm">0.74481732320000016</Xk>
+              <Lk unit="H">0.0079027572458502567</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">30</Frequency>
+              <VACSel unit="V">1.487405</VACSel>
+              <IACSel unit="A">0.99377</IACSel>
+              <VACPhaseSel unit="°">83.77</VACPhaseSel>
+              <WattLoss unit="W">0.16040740476735033</WattLoss>
+              <Rk unit="Ohm">0.16242491505000003</Rk>
+              <RkCorrected unit="Ohm">0.18516440315700003</RkCorrected>
+              <Zk unit="Ohm">1.4993677251636894</Zk>
+              <Xk unit="Ohm">1.4878903585500003</Xk>
+              <Lk unit="H">0.0078935035114001684</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">50</Frequency>
+              <VACSel unit="V">2.479435</VACSel>
+              <IACSel unit="A">0.99858000000000013</IACSel>
+              <VACPhaseSel unit="°">85.94</VACPhaseSel>
+              <WattLoss unit="W">0.17529740430237367</WattLoss>
+              <Rk unit="Ohm">0.17579631135000004</Rk>
+              <RkCorrected unit="Ohm">0.20040779493900002</RkCorrected>
+              <Zk unit="Ohm">2.4848246008679475</Zk>
+              <Xk unit="Ohm">2.4767297012000005</Xk>
+              <Lk unit="H">0.00788367549296986</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">70</Frequency>
+              <VACSel unit="V">3.48165</VACSel>
+              <IACSel unit="A">1.0025600000000001</IACSel>
+              <VACPhaseSel unit="°">86.8</VACPhaseSel>
+              <WattLoss unit="W">0.19484848127316867</WattLoss>
+              <Rk unit="Ohm">0.19385467490000002</Rk>
+              <RkCorrected unit="Ohm">0.220994329386</RkCorrected>
+              <Zk unit="Ohm">3.4743803816135816</Zk>
+              <Xk unit="Ohm">3.4673448837000005</Xk>
+              <Lk unit="H">0.00788350110921783</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">90</Frequency>
+              <VACSel unit="V">4.49497</VACSel>
+              <IACSel unit="A">1.00807</IACSel>
+              <VACPhaseSel unit="°">87.210000000000008</VACPhaseSel>
+              <WattLoss unit="W">0.22056033567280933</WattLoss>
+              <Rk unit="Ohm">0.21704312475000004</Rk>
+              <RkCorrected unit="Ohm">0.24742916221500003</RkCorrected>
+              <Zk unit="Ohm">4.460568290011099</Zk>
+              <Xk unit="Ohm">4.45370051525</Xk>
+              <Lk unit="H">0.00787587168947732</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">190</Frequency>
+              <VACSel unit="V">9.99328</VACSel>
+              <IACSel unit="A">1.0663</IACSel>
+              <VACPhaseSel unit="°">87.54</VACPhaseSel>
+              <WattLoss unit="W">0.45736876312989688</WattLoss>
+              <Rk unit="Ohm">0.40226077120000009</Rk>
+              <RkCorrected unit="Ohm">0.45857727916800006</RkCorrected>
+              <Zk unit="Ohm">9.3745076581745952</Zk>
+              <Xk unit="Ohm">9.363284718100001</Xk>
+              <Lk unit="H">0.0078432265603285214</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">400</Frequency>
+              <VACSel unit="V">27.425120000000003</VACSel>
+              <IACSel unit="A">1.40528</IACSel>
+              <VACPhaseSel unit="°">86.75</VACPhaseSel>
+              <WattLoss unit="W">2.1849384812150712</WattLoss>
+              <Rk unit="Ohm">1.1064033517000003</Rk>
+              <RkCorrected unit="Ohm">1.2612998209380002</RkCorrected>
+              <Zk unit="Ohm">19.525163056997016</Zk>
+              <Xk unit="Ohm">19.484381313350003</Xk>
+              <Lk unit="H">0.0077525889977675217</Lk>
+            </FrequencyResult>
+          </FrequencyResults>
+          <FRSLResult>
+            <Assessment>NotPossible</Assessment>
+            <ManualAssessment>None</ManualAssessment>
+            <HasAssessment>false</HasAssessment>
+            <ManualAssessmentActive>false</ManualAssessmentActive>
+            <ResultState>All</ResultState>
+            <AggregatedAssessmentResults />
+            <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+            <R1 unit="Ohm">0.17769385507800003</R1>
+            <R2 unit="Ohm">0.18516440315700003</R2>
+            <R3 unit="Ohm">0.20040779493900002</R3>
+            <R4 unit="Ohm">0.220994329386</R4>
+            <R5 unit="Ohm">0.24742916221500003</R5>
+            <R6 unit="Ohm">0.45857727916800006</R6>
+            <R7 unit="Ohm">1.2612998209380002</R7>
+          </FRSLResult>
+          <Phase>PhaseA</Phase>
+        </PhaseResult>
+        <PhaseResult>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <FrequencyResults>
+            <FrequencyResult>
+              <Frequency unit="Hz">15</Frequency>
+              <VACSel unit="V">0.75133500000000009</VACSel>
+              <IACSel unit="A">0.99507000000000012</IACSel>
+              <VACPhaseSel unit="°">77.34</VACPhaseSel>
+              <WattLoss unit="W">0.16385460443894828</WattLoss>
+              <Rk unit="Ohm">0.16548223725000002</Rk>
+              <RkCorrected unit="Ohm">0.18864975046500002</RkCorrected>
+              <Zk unit="Ohm">0.760470962515366</Zk>
+              <Xk unit="Ohm">0.73670031660000013</Xk>
+              <Lk unit="H">0.007816633130950287</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">30</Frequency>
+              <VACSel unit="V">1.4768050000000001</VACSel>
+              <IACSel unit="A">0.99715000000000009</IACSel>
+              <VACPhaseSel unit="°">83.3</VACPhaseSel>
+              <WattLoss unit="W">0.17180887310746026</WattLoss>
+              <Rk unit="Ohm">0.17279238620000004</Rk>
+              <RkCorrected unit="Ohm">0.19698332026800003</RkCorrected>
+              <Zk unit="Ohm">1.4840427914751679</Zk>
+              <Xk unit="Ohm">1.4709114788000002</Xk>
+              <Lk unit="H">0.0078034277567209888</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">50</Frequency>
+              <VACSel unit="V">2.45448</VACSel>
+              <IACSel unit="A">0.99996000000000007</IACSel>
+              <VACPhaseSel unit="°">85.63</VACPhaseSel>
+              <WattLoss unit="W">0.18701643841624463</WattLoss>
+              <Rk unit="Ohm">0.18703140065000004</Rk>
+              <RkCorrected unit="Ohm">0.21321579674100002</RkCorrected>
+              <Zk unit="Ohm">2.4567120890096645</Zk>
+              <Xk unit="Ohm">2.4474421979500005</Xk>
+              <Lk unit="H">0.0077904504747087116</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">70</Frequency>
+              <VACSel unit="V">3.4424150000000004</VACSel>
+              <IACSel unit="A">1.0035100000000001</IACSel>
+              <VACPhaseSel unit="°">86.58</VACPhaseSel>
+              <WattLoss unit="W">0.20607745382428017</WattLoss>
+              <Rk unit="Ohm">0.20463837130000004</Rk>
+              <RkCorrected unit="Ohm">0.23328774328200003</RkCorrected>
+              <Zk unit="Ohm">3.4322026070173859</Zk>
+              <Xk unit="Ohm">3.4242651130500006</Xk>
+              <Lk unit="H">0.007785553131414792</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">90</Frequency>
+              <VACSel unit="V">4.44545</VACSel>
+              <IACSel unit="A">1.0095500000000002</IACSel>
+              <VACPhaseSel unit="°">87.04</VACPhaseSel>
+              <WattLoss unit="W">0.23174983865298765</WattLoss>
+              <Rk unit="Ohm">0.22738602735000005</Rk>
+              <RkCorrected unit="Ohm">0.25922007117900003</RkCorrected>
+              <Zk unit="Ohm">4.4051561439931222</Zk>
+              <Xk unit="Ohm">4.3975226671000005</Xk>
+              <Lk unit="H">0.007776527442529115</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">190</Frequency>
+              <VACSel unit="V">9.863665000000001</VACSel>
+              <IACSel unit="A">1.0663900000000002</IACSel>
+              <VACPhaseSel unit="°">87.41</VACPhaseSel>
+              <WattLoss unit="W">0.4753172686177024</WattLoss>
+              <Rk unit="Ohm">0.41797611510000005</Rk>
+              <RkCorrected unit="Ohm">0.476492771214</RkCorrected>
+              <Zk unit="Ohm">9.2524140039399</Zk>
+              <Xk unit="Ohm">9.240136337700001</Xk>
+              <Lk unit="H">0.0077400703841473571</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">400</Frequency>
+              <VACSel unit="V">26.939855</VACSel>
+              <IACSel unit="A">1.39941</IACSel>
+              <VACPhaseSel unit="°">86.68</VACPhaseSel>
+              <WattLoss unit="W">2.1832959978155619</WattLoss>
+              <Rk unit="Ohm">1.1148660042500003</Rk>
+              <RkCorrected unit="Ohm">1.270947244845</RkCorrected>
+              <Zk unit="Ohm">19.260535798632528</Zk>
+              <Xk unit="Ohm">19.218556978900004</Xk>
+              <Lk unit="H">0.0076468208557129453</Lk>
+            </FrequencyResult>
+          </FrequencyResults>
+          <FRSLResult>
+            <Assessment>NotPossible</Assessment>
+            <ManualAssessment>None</ManualAssessment>
+            <HasAssessment>false</HasAssessment>
+            <ManualAssessmentActive>false</ManualAssessmentActive>
+            <ResultState>All</ResultState>
+            <AggregatedAssessmentResults />
+            <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+            <R1 unit="Ohm">0.18864975046500002</R1>
+            <R2 unit="Ohm">0.19698332026800003</R2>
+            <R3 unit="Ohm">0.21321579674100002</R3>
+            <R4 unit="Ohm">0.23328774328200003</R4>
+            <R5 unit="Ohm">0.25922007117900003</R5>
+            <R6 unit="Ohm">0.476492771214</R6>
+            <R7 unit="Ohm">1.270947244845</R7>
+          </FRSLResult>
+          <Phase>PhaseB</Phase>
+        </PhaseResult>
+        <PhaseResult>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <FrequencyResults>
+            <FrequencyResult>
+              <Frequency unit="Hz">15</Frequency>
+              <VACSel unit="V">0.74882500000000007</VACSel>
+              <IACSel unit="A">0.99507000000000012</IACSel>
+              <VACPhaseSel unit="°">77.4</VACPhaseSel>
+              <WattLoss unit="W">0.16254579175296385</WattLoss>
+              <Rk unit="Ohm">0.16416042365000003</Rk>
+              <RkCorrected unit="Ohm">0.187142882961</RkCorrected>
+              <Zk unit="Ohm">0.75788042360748453</Zk>
+              <Xk unit="Ohm">0.73441151805000016</Xk>
+              <Lk unit="H">0.00779234822408535</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">30</Frequency>
+              <VACSel unit="V">1.4720350000000002</VACSel>
+              <IACSel unit="A">0.99703000000000008</IACSel>
+              <VACPhaseSel unit="°">83.34</VACPhaseSel>
+              <WattLoss unit="W">0.17021566431488511</WattLoss>
+              <Rk unit="Ohm">0.17123126765000002</Rk>
+              <RkCorrected unit="Ohm">0.195203645121</RkCorrected>
+              <Zk unit="Ohm">1.4793918466391343</Zk>
+              <Xk unit="Ohm">1.4664568772500002</Xk>
+              <Lk unit="H">0.0077797953615147452</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">50</Frequency>
+              <VACSel unit="V">2.447025</VACSel>
+              <IACSel unit="A">0.99953</IACSel>
+              <VACPhaseSel unit="°">85.67</VACPhaseSel>
+              <WattLoss unit="W">0.18466561287364466</WattLoss>
+              <Rk unit="Ohm">0.18483932100000003</Rk>
+              <RkCorrected unit="Ohm">0.21071682594000002</RkCorrected>
+              <Zk unit="Ohm">2.4502652882697511</Zk>
+              <Xk unit="Ohm">2.4411879080000003</Xk>
+              <Lk unit="H">0.0077705424514872617</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">70</Frequency>
+              <VACSel unit="V">3.434505</VACSel>
+              <IACSel unit="A">1.0037</IACSel>
+              <VACPhaseSel unit="°">86.600000000000009</VACPhaseSel>
+              <WattLoss unit="W">0.20444168231384829</WattLoss>
+              <Rk unit="Ohm">0.20293716905000003</Rk>
+              <RkCorrected unit="Ohm">0.231348372717</RkCorrected>
+              <Zk unit="Ohm">3.4236466148966063</Zk>
+              <Xk unit="Ohm">3.4158211420000004</Xk>
+              <Lk unit="H">0.0077663545638157576</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">90</Frequency>
+              <VACSel unit="V">4.432615</VACSel>
+              <IACSel unit="A">1.00908</IACSel>
+              <VACPhaseSel unit="°">87.070000000000007</VACPhaseSel>
+              <WattLoss unit="W">0.22863425231751042</WattLoss>
+              <Rk unit="Ohm">0.22453812755000005</Rk>
+              <RkCorrected unit="Ohm">0.25597346540700006</RkCorrected>
+              <Zk unit="Ohm">4.3944480076215626</Zk>
+              <Xk unit="Ohm">4.3869865371</Xk>
+              <Lk unit="H">0.0077578954739673505</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">190</Frequency>
+              <VACSel unit="V">9.842715</VACSel>
+              <IACSel unit="A">1.06658</IACSel>
+              <VACPhaseSel unit="°">87.43</VACPhaseSel>
+              <WattLoss unit="W">0.47073142945023771</WattLoss>
+              <Rk unit="Ohm">0.41379603455000008</Rk>
+              <RkCorrected unit="Ohm">0.47172747938700005</RkCorrected>
+              <Zk unit="Ohm">9.2310741693898688</Zk>
+              <Xk unit="Ohm">9.2190131525000023</Xk>
+              <Lk unit="H">0.0077223763876293292</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">400</Frequency>
+              <VACSel unit="V">26.887825000000003</VACSel>
+              <IACSel unit="A">1.3997600000000001</IACSel>
+              <VACPhaseSel unit="°">86.65</VACPhaseSel>
+              <WattLoss unit="W">2.1992973646204792</WattLoss>
+              <Rk unit="Ohm">1.1224753078500003</Rk>
+              <RkCorrected unit="Ohm">1.2796218509490003</RkCorrected>
+              <Zk unit="Ohm">19.218705420969748</Zk>
+              <Xk unit="Ohm">19.176058144900004</Xk>
+              <Lk unit="H">0.0076299111069460905</Lk>
+            </FrequencyResult>
+          </FrequencyResults>
+          <FRSLResult>
+            <Assessment>NotPossible</Assessment>
+            <ManualAssessment>None</ManualAssessment>
+            <HasAssessment>false</HasAssessment>
+            <ManualAssessmentActive>false</ManualAssessmentActive>
+            <ResultState>All</ResultState>
+            <AggregatedAssessmentResults />
+            <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+            <R1 unit="Ohm">0.187142882961</R1>
+            <R2 unit="Ohm">0.195203645121</R2>
+            <R3 unit="Ohm">0.21071682594000002</R3>
+            <R4 unit="Ohm">0.231348372717</R4>
+            <R5 unit="Ohm">0.25597346540700006</R5>
+            <R6 unit="Ohm">0.47172747938700005</R6>
+            <R7 unit="Ohm">1.2796218509490003</R7>
+          </FRSLResult>
+          <Phase>PhaseC</Phase>
+        </PhaseResult>
+      </PhaseResults>
+      <AssessmentResults>
+        <AssessmentResult>
+          <Assessment>NotPossible</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>LR3PhaseEquivPass</ResultId>
+              <Message>[[AssessmentLeakageReactance3PhasePassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+          <ZkMeasPercentage unit="%">7.4496212868402774</ZkMeasPercentage>
+          <ZkRefPercentage unit="%">1.2336975</ZkRefPercentage>
+          <ZkDevPercentage unit="%">0.13912484128314487</ZkDevPercentage>
+          <XkMeasPercentage unit="%">7.422887182816833</XkMeasPercentage>
+          <XkRefPercentage unit="%">NaN</XkRefPercentage>
+          <XkDevPercentage unit="%">NaN</XkDevPercentage>
+          <DominanceOrder>0</DominanceOrder>
+          <Phase>None</Phase>
+        </AssessmentResult>
+      </AssessmentResults>
+    </LeakageReactanceMeasurement>
+    <LeakageReactanceMeasurement>
+      <Assessment>None</Assessment>
+      <ManualAssessment>None</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-04-08T08:20:50</MeasuredDate>
+      <MeasurementType>PerPhase</MeasurementType>
+      <RKAssessmentResult>
+        <Assessment>NotPossible</Assessment>
+        <ManualAssessment>None</ManualAssessment>
+        <HasAssessment>false</HasAssessment>
+        <ManualAssessmentActive>false</ManualAssessmentActive>
+        <ResultState>All</ResultState>
+        <AggregatedAssessmentResults />
+        <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+        <RkAverage unit="Ohm">2.0398933164510002</RkAverage>
+        <DevRkPhaseAPercentage unit="%">0.81886913419872664</DevRkPhaseAPercentage>
+        <DevRkPhaseBPercentage unit="%">-0.39036284083002087</DevRkPhaseBPercentage>
+        <DevRkPhaseCPercentage unit="%">-0.4285062933686839</DevRkPhaseCPercentage>
+      </RKAssessmentResult>
+      <PhaseResults>
+        <PhaseResult>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <FrequencyResults>
+            <FrequencyResult>
+              <Frequency unit="Hz">15</Frequency>
+              <VACSel unit="V">1.176625</VACSel>
+              <IACSel unit="A">0.99446000000000012</IACSel>
+              <VACPhaseSel unit="°">72.25</VACPhaseSel>
+              <WattLoss unit="W">0.35672369714845853</WattLoss>
+              <Rk unit="Ohm">0.36070928530000007</Rk>
+              <RkCorrected unit="Ohm">0.41120858524200005</RkCorrected>
+              <Zk unit="Ohm">1.1995398240562052</Zk>
+              <Xk unit="Ohm">1.1268554871500003</Xk>
+              <Lk unit="H">0.011956308062009887</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">30</Frequency>
+              <VACSel unit="V">2.272205</VACSel>
+              <IACSel unit="A">0.99679000000000006</IACSel>
+              <VACPhaseSel unit="°">80.62</VACPhaseSel>
+              <WattLoss unit="W">0.36913879512565151</WattLoss>
+              <Rk unit="Ohm">0.37152012615000007</Rk>
+              <RkCorrected unit="Ohm">0.42353294381100004</RkCorrected>
+              <Zk unit="Ohm">2.2885748215005455</Zk>
+              <Xk unit="Ohm">2.2490430318500003</Xk>
+              <Lk unit="H">0.01193154385817702</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">50</Frequency>
+              <VACSel unit="V">3.764825</VACSel>
+              <IACSel unit="A">0.99980000000000013</IACSel>
+              <VACPhaseSel unit="°">84.01</VACPhaseSel>
+              <WattLoss unit="W">0.39279930382056488</WattLoss>
+              <Rk unit="Ohm">0.39295647070000006</Rk>
+              <RkCorrected unit="Ohm">0.44797037659800004</RkCorrected>
+              <Zk unit="Ohm">3.77171595104888</Zk>
+              <Xk unit="Ohm">3.7450185256000008</Xk>
+              <Lk unit="H">0.011920764206399238</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">70</Frequency>
+              <VACSel unit="V">5.283655</VACSel>
+              <IACSel unit="A">1.0057900000000002</IACSel>
+              <VACPhaseSel unit="°">85.42</VACPhaseSel>
+              <WattLoss unit="W">0.42434784913552581</WattLoss>
+              <Rk unit="Ohm">0.41947625160000007</Rk>
+              <RkCorrected unit="Ohm">0.47820292682400006</RkCorrected>
+              <Zk unit="Ohm">5.2582539928563516</Zk>
+              <Xk unit="Ohm">5.2364641710000006</Xk>
+              <Lk unit="H">0.011905845101975059</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">90</Frequency>
+              <VACSel unit="V">6.838375000000001</VACSel>
+              <IACSel unit="A">1.01438</IACSel>
+              <VACPhaseSel unit="°">86.13</VACPhaseSel>
+              <WattLoss unit="W">0.46817869654930228</WattLoss>
+              <Rk unit="Ohm">0.45499884315000005</Rk>
+              <RkCorrected unit="Ohm">0.518698681191</RkCorrected>
+              <Zk unit="Ohm">6.746031858747692</Zk>
+              <Xk unit="Ohm">6.726061070000001</Xk>
+              <Lk unit="H">0.011894287409205142</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">190</Frequency>
+              <VACSel unit="V">15.530020000000002</VACSel>
+              <IACSel unit="A">1.09695</IACSel>
+              <VACPhaseSel unit="°">87.03</VACPhaseSel>
+              <WattLoss unit="W">0.88266957182964967</WattLoss>
+              <Rk unit="Ohm">0.73354116470000008</Rk>
+              <RkCorrected unit="Ohm">0.83623692775800007</RkCorrected>
+              <Zk unit="Ohm">14.163147067874053</Zk>
+              <Xk unit="Ohm">14.138438480500003</Xk>
+              <Lk unit="H">0.011843170377748638</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">400</Frequency>
+              <VACSel unit="V">49.35972</VACSel>
+              <IACSel unit="A">1.6736900000000001</IACSel>
+              <VACPhaseSel unit="°">86.55</VACPhaseSel>
+              <WattLoss unit="W">4.9714342742910294</WattLoss>
+              <Rk unit="Ohm">1.7747274208000003</Rk>
+              <RkCorrected unit="Ohm">2.0231892597120003</RkCorrected>
+              <Zk unit="Ohm">29.507548685658719</Zk>
+              <Xk unit="Ohm">29.438106845650005</Xk>
+              <Lk unit="H">0.011713050549381402</Lk>
+            </FrequencyResult>
+          </FrequencyResults>
+          <FRSLResult>
+            <Assessment>NotPossible</Assessment>
+            <ManualAssessment>None</ManualAssessment>
+            <HasAssessment>false</HasAssessment>
+            <ManualAssessmentActive>false</ManualAssessmentActive>
+            <ResultState>All</ResultState>
+            <AggregatedAssessmentResults />
+            <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+            <R1 unit="Ohm">0.41120858524200005</R1>
+            <R2 unit="Ohm">0.42353294381100004</R2>
+            <R3 unit="Ohm">0.44797037659800004</R3>
+            <R4 unit="Ohm">0.47820292682400006</R4>
+            <R5 unit="Ohm">0.518698681191</R5>
+            <R6 unit="Ohm">0.83623692775800007</R6>
+            <R7 unit="Ohm">2.0231892597120003</R7>
+          </FRSLResult>
+          <Phase>PhaseA</Phase>
+        </PhaseResult>
+        <PhaseResult>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <FrequencyResults>
+            <FrequencyResult>
+              <Frequency unit="Hz">15</Frequency>
+              <VACSel unit="V">1.155</VACSel>
+              <IACSel unit="A">0.99373000000000011</IACSel>
+              <VACPhaseSel unit="°">71.84</VACPhaseSel>
+              <WattLoss unit="W">0.35772366131606581</WattLoss>
+              <Rk unit="Ohm">0.36225206100000007</Rk>
+              <RkCorrected unit="Ohm">0.41296734954000003</RkCorrected>
+              <Zk unit="Ohm">1.1790792206111476</Zk>
+              <Xk unit="Ohm">1.1043938503500002</Xk>
+              <Lk unit="H">0.011717982693566231</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">30</Frequency>
+              <VACSel unit="V">2.2270600000000003</VACSel>
+              <IACSel unit="A">0.99634000000000011</IACSel>
+              <VACPhaseSel unit="°">80.38</VACPhaseSel>
+              <WattLoss unit="W">0.3708083424820649</WattLoss>
+              <Rk unit="Ohm">0.37353763420000008</Rk>
+              <RkCorrected unit="Ohm">0.42583290298800003</RkCorrected>
+              <Zk unit="Ohm">2.2445724636961217</Zk>
+              <Xk unit="Ohm">2.2038084952000006</Xk>
+              <Lk unit="H">0.011691567187966387</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">50</Frequency>
+              <VACSel unit="V">3.692775</VACSel>
+              <IACSel unit="A">1.00064</IACSel>
+              <VACPhaseSel unit="°">83.850000000000009</VACPhaseSel>
+              <WattLoss unit="W">0.39586665665339743</WattLoss>
+              <Rk unit="Ohm">0.39536043335000004</Rk>
+              <RkCorrected unit="Ohm">0.450710894019</RkCorrected>
+              <Zk unit="Ohm">3.6967525680139843</Zk>
+              <Xk unit="Ohm">3.6691741903500006</Xk>
+              <Lk unit="H">0.011679344189188109</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">70</Frequency>
+              <VACSel unit="V">5.1747700000000005</VACSel>
+              <IACSel unit="A">1.00553</IACSel>
+              <VACPhaseSel unit="°">85.26</VACPhaseSel>
+              <WattLoss unit="W">0.42997805750463075</WattLoss>
+              <Rk unit="Ohm">0.42526165870000004</Rk>
+              <RkCorrected unit="Ohm">0.48479829091800003</RkCorrected>
+              <Zk unit="Ohm">5.1515723610651847</Zk>
+              <Xk unit="Ohm">5.1287102090500012</Xk>
+              <Lk unit="H">0.011660851163659652</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">90</Frequency>
+              <VACSel unit="V">6.68989</VACSel>
+              <IACSel unit="A">1.01319</IACSel>
+              <VACPhaseSel unit="°">85.99</VACPhaseSel>
+              <WattLoss unit="W">0.47399854074423653</WattLoss>
+              <Rk unit="Ohm">0.46173757230000007</Rk>
+              <RkCorrected unit="Ohm">0.52638083242200007</RkCorrected>
+              <Zk unit="Ohm">6.6076342882917283</Zk>
+              <Xk unit="Ohm">6.5866345053500011</Xk>
+              <Lk unit="H">0.011647727109623262</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">190</Frequency>
+              <VACSel unit="V">15.172735000000001</VACSel>
+              <IACSel unit="A">1.09488</IACSel>
+              <VACPhaseSel unit="°">86.91</VACPhaseSel>
+              <WattLoss unit="W">0.89547959966044621</WattLoss>
+              <Rk unit="Ohm">0.7470035249000001</Rk>
+              <RkCorrected unit="Ohm">0.85158401838600006</RkCorrected>
+              <Zk unit="Ohm">13.863928335177725</Zk>
+              <Xk unit="Ohm">13.837749583750002</Xk>
+              <Lk unit="H">0.011591296039587525</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">400</Frequency>
+              <VACSel unit="V">47.693670000000004</VACSel>
+              <IACSel unit="A">1.6532200000000001</IACSel>
+              <VACPhaseSel unit="°">86.43</VACPhaseSel>
+              <WattLoss unit="W">4.909710996644157</WattLoss>
+              <Rk unit="Ohm">1.7963651771500002</Rk>
+              <RkCorrected unit="Ohm">2.047856301951</RkCorrected>
+              <Zk unit="Ohm">28.865706532744834</Zk>
+              <Xk unit="Ohm">28.792973069850003</Xk>
+              <Lk unit="H">0.01145635997594613</Lk>
+            </FrequencyResult>
+          </FrequencyResults>
+          <FRSLResult>
+            <Assessment>NotPossible</Assessment>
+            <ManualAssessment>None</ManualAssessment>
+            <HasAssessment>false</HasAssessment>
+            <ManualAssessmentActive>false</ManualAssessmentActive>
+            <ResultState>All</ResultState>
+            <AggregatedAssessmentResults />
+            <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+            <R1 unit="Ohm">0.41296734954000003</R1>
+            <R2 unit="Ohm">0.42583290298800003</R2>
+            <R3 unit="Ohm">0.450710894019</R3>
+            <R4 unit="Ohm">0.48479829091800003</R4>
+            <R5 unit="Ohm">0.52638083242200007</R5>
+            <R6 unit="Ohm">0.85158401838600006</R6>
+            <R7 unit="Ohm">2.047856301951</R7>
+          </FRSLResult>
+          <Phase>PhaseB</Phase>
+        </PhaseResult>
+        <PhaseResult>
+          <Assessment>None</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>true</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults />
+          <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+          <FrequencyResults>
+            <FrequencyResult>
+              <Frequency unit="Hz">15</Frequency>
+              <VACSel unit="V">1.1488900000000002</VACSel>
+              <IACSel unit="A">0.99221</IACSel>
+              <VACPhaseSel unit="°">71.95</VACPhaseSel>
+              <WattLoss unit="W">0.35320684088818616</WattLoss>
+              <Rk unit="Ohm">0.35877478005000007</Rk>
+              <RkCorrected unit="Ohm">0.40900324925700005</RkCorrected>
+              <Zk unit="Ohm">1.1744446180053267</Zk>
+              <Xk unit="Ohm">1.1009252939500003</Xk>
+              <Lk unit="H">0.01168118016713603</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">30</Frequency>
+              <VACSel unit="V">2.218</VACSel>
+              <IACSel unit="A">0.99582</IACSel>
+              <VACPhaseSel unit="°">80.43</VACPhaseSel>
+              <WattLoss unit="W">0.36720658443706922</WattLoss>
+              <Rk unit="Ohm">0.37029578725000006</Rk>
+              <RkCorrected unit="Ohm">0.42213719746500006</RkCorrected>
+              <Zk unit="Ohm">2.2365132184679388</Zk>
+              <Xk unit="Ohm">2.1963131750500002</Xk>
+              <Lk unit="H">0.011651803279568759</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">50</Frequency>
+              <VACSel unit="V">3.6721850000000003</VACSel>
+              <IACSel unit="A">0.99863000000000013</IACSel>
+              <VACPhaseSel unit="°">83.9</VACPhaseSel>
+              <WattLoss unit="W">0.38968672557938938</WattLoss>
+              <Rk unit="Ohm">0.39075666545000004</Rk>
+              <RkCorrected unit="Ohm">0.445462598613</RkCorrected>
+              <Zk unit="Ohm">3.68343774768875</Zk>
+              <Xk unit="Ohm">3.6564021543500007</Xk>
+              <Lk unit="H">0.011638689535933158</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">70</Frequency>
+              <VACSel unit="V">5.15627</VACSel>
+              <IACSel unit="A">1.00519</IACSel>
+              <VACPhaseSel unit="°">85.3</VACPhaseSel>
+              <WattLoss unit="W">0.42468983370733154</WattLoss>
+              <Rk unit="Ohm">0.42031563575000008</Rk>
+              <RkCorrected unit="Ohm">0.47915982475500007</RkCorrected>
+              <Zk unit="Ohm">5.1348036570855458</Zk>
+              <Xk unit="Ohm">5.1123981123500011</Xk>
+              <Lk unit="H">0.011623763294773966</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">90</Frequency>
+              <VACSel unit="V">6.6708500000000006</VACSel>
+              <IACSel unit="A">1.01349</IACSel>
+              <VACPhaseSel unit="°">86.04</VACPhaseSel>
+              <WattLoss unit="W">0.46690376812546724</WattLoss>
+              <Rk unit="Ohm">0.4545570973000001</Rk>
+              <RkCorrected unit="Ohm">0.51819509092200011</RkCorrected>
+              <Zk unit="Ohm">6.5867588388541</Zk>
+              <Xk unit="Ohm">6.5663434154000013</Xk>
+              <Lk unit="H">0.011611844584442543</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">190</Frequency>
+              <VACSel unit="V">15.11997</VACSel>
+              <IACSel unit="A">1.0941500000000002</IACSel>
+              <VACPhaseSel unit="°">86.94</VACPhaseSel>
+              <WattLoss unit="W">0.883120794617888</WattLoss>
+              <Rk unit="Ohm">0.73767723595000012</Rk>
+              <RkCorrected unit="Ohm">0.840952048983</RkCorrected>
+              <Zk unit="Ohm">13.824816429843018</Zk>
+              <Xk unit="Ohm">13.799215520100002</Xk>
+              <Lk unit="H">0.011559017688496393</Lk>
+            </FrequencyResult>
+            <FrequencyResult>
+              <Frequency unit="Hz">400</Frequency>
+              <VACSel unit="V">47.50444</VACSel>
+              <IACSel unit="A">1.65064</IACSel>
+              <VACPhaseSel unit="°">86.42</VACPhaseSel>
+              <WattLoss unit="W">4.8962584872158379</WattLoss>
+              <Rk unit="Ohm">1.7970477085000003</Rk>
+              <RkCorrected unit="Ohm">2.04863438769</RkCorrected>
+              <Zk unit="Ohm">28.796211152515042</Zk>
+              <Xk unit="Ohm">28.723246228200004</Xk>
+              <Lk unit="H">0.011428616547159173</Lk>
+            </FrequencyResult>
+          </FrequencyResults>
+          <FRSLResult>
+            <Assessment>NotPossible</Assessment>
+            <ManualAssessment>None</ManualAssessment>
+            <HasAssessment>false</HasAssessment>
+            <ManualAssessmentActive>false</ManualAssessmentActive>
+            <ResultState>All</ResultState>
+            <AggregatedAssessmentResults />
+            <LastAutomaticAssessment>NotPossible</LastAutomaticAssessment>
+            <R1 unit="Ohm">0.40900324925700005</R1>
+            <R2 unit="Ohm">0.42213719746500006</R2>
+            <R3 unit="Ohm">0.445462598613</R3>
+            <R4 unit="Ohm">0.47915982475500007</R4>
+            <R5 unit="Ohm">0.51819509092200011</R5>
+            <R6 unit="Ohm">0.840952048983</R6>
+            <R7 unit="Ohm">2.04863438769</R7>
+          </FRSLResult>
+          <Phase>PhaseC</Phase>
+        </PhaseResult>
+      </PhaseResults>
+      <AssessmentResults>
+        <AssessmentResult>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>LRPerPhasePass</ResultId>
+              <Message>[[AssessmentLeakageReactancePerPhasePassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <ZkMeasPercentage unit="%">7.602350115492829</ZkMeasPercentage>
+          <ZkRefPercentage unit="%">1.2391006963057349</ZkRefPercentage>
+          <ZkDevPercentage unit="%">-1.4637998427382346</ZkDevPercentage>
+          <XkMeasPercentage unit="%">7.5485382224237858</XkMeasPercentage>
+          <XkRefPercentage unit="%">NaN</XkRefPercentage>
+          <XkDevPercentage unit="%">NaN</XkDevPercentage>
+          <DominanceOrder>3</DominanceOrder>
+          <Phase>PhaseA</Phase>
+        </AssessmentResult>
+        <AssessmentResult>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>LRPerPhasePass</ResultId>
+              <Message>[[AssessmentLeakageReactancePerPhasePassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <ZkMeasPercentage unit="%">7.451252341675958</ZkMeasPercentage>
+          <ZkRefPercentage unit="%">1.2391006963057349</ZkRefPercentage>
+          <ZkDevPercentage unit="%">0.55280739664625367</ZkDevPercentage>
+          <XkMeasPercentage unit="%">7.3956647827664419</XkMeasPercentage>
+          <XkRefPercentage unit="%">NaN</XkRefPercentage>
+          <XkDevPercentage unit="%">NaN</XkDevPercentage>
+          <DominanceOrder>2</DominanceOrder>
+          <Phase>PhaseB</Phase>
+        </AssessmentResult>
+        <AssessmentResult>
+          <Assessment>Pass</Assessment>
+          <ManualAssessment>None</ManualAssessment>
+          <HasAssessment>false</HasAssessment>
+          <ManualAssessmentActive>false</ManualAssessmentActive>
+          <ResultState>All</ResultState>
+          <AggregatedAssessmentResults>
+            <AssessmentResult>
+              <ResultId>LRPerPhasePass</ResultId>
+              <Message>[[AssessmentLeakageReactancePerPhasePassMessage]]</Message>
+            </AssessmentResult>
+          </AggregatedAssessmentResults>
+          <LastAutomaticAssessment>Pass</LastAutomaticAssessment>
+          <ZkMeasPercentage unit="%">7.4244147093751574</ZkMeasPercentage>
+          <ZkRefPercentage unit="%">1.2391006963057349</ZkRefPercentage>
+          <ZkDevPercentage unit="%">0.91099244609196917</ZkDevPercentage>
+          <XkMeasPercentage unit="%">7.36992119798438</XkMeasPercentage>
+          <XkRefPercentage unit="%">NaN</XkRefPercentage>
+          <XkDevPercentage unit="%">NaN</XkDevPercentage>
+          <DominanceOrder>1</DominanceOrder>
+          <Phase>PhaseC</Phase>
+        </AssessmentResult>
+      </AssessmentResults>
+    </LeakageReactanceMeasurement>
+  </Measurements>
+</tLeakageReactanceTest>

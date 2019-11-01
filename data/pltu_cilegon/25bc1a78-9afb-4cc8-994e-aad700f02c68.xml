@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<tDRATest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExportId="25bc1a78-9afb-4cc8-994e-aad700f02c68" ExportVersion="4.40.1172.0" StubVersion="4.40" xmlns="http://schemas.omicron.at/public/200906/common">
+  <Created>2019-09-29T07:34:26</Created>
+  <CreatedBy>DESKTOP-9C2UOFI\sis-ujh</CreatedBy>
+  <LastUsed>0001-01-01T00:00:00</LastUsed>
+  <LastModified>2019-10-31T03:44:51.9660721Z</LastModified>
+  <LastModifiedBy>DESKTOP-9C2UOFI\sis-ujh</LastModifiedBy>
+  <LastMigratedVersion>4.40.0788.0000</LastMigratedVersion>
+  <TestId>6826ca1e-2f05-40a0-be24-03292deb07b5</TestId>
+  <TestIndex>14</TestIndex>
+  <Comment />
+  <AssetId>b9082f7c-beea-4795-98b2-aad000e07417</AssetId>
+  <ImportedFrom>None</ImportedFrom>
+  <ExecutionDate>2019-09-29T08:05:58</ExecutionDate>
+  <Name>DIRANA CHL</Name>
+  <TestCategory>Guided</TestCategory>
+  <NameIndex>-1</NameIndex>
+  <Version>4.40.0788.0000</Version>
+  <AutomaticAssessmentActive>false</AutomaticAssessmentActive>
+  <MetaData />
+  <UseJobConditions>false</UseJobConditions>
+  <AmbientTemperature unit="C">30</AmbientTemperature>
+  <JobAmbientTemperature unit="C">NaN</JobAmbientTemperature>
+  <TestAmbientTemperature unit="C">NaN</TestAmbientTemperature>
+  <Weather>PartlyCloudy</Weather>
+  <JobWeather>Empty</JobWeather>
+  <TestWeather>Empty</TestWeather>
+  <Humidity unit="%">59</Humidity>
+  <JobHumidity unit="%">NaN</JobHumidity>
+  <TestHumidity unit="%">NaN</TestHumidity>
+  <Assessment>Unknown</Assessment>
+  <ResultState>All</ResultState>
+  <Attachments />
+  <Grade>Normal</Grade>
+  <ParentTestId />
+  <UniqueId>5b287193-5c3a-4b74-bbae-043dc043a420</UniqueId>
+  <MeasurementSequenceId>0</MeasurementSequenceId>
+  <ImportDataSource>None</ImportDataSource>
+  <OilTemperature unit="C">36</OilTemperature>
+  <MeasurementSequence>3</MeasurementSequence>
+  <UseAutomaticSettings>true</UseAutomaticSettings>
+  <StartFrequency unit="Hz">1000</StartFrequency>
+  <StopFrequency unit="Hz">1E-05</StopFrequency>
+  <SwitchFrequency unit="Hz">0.1</SwitchFrequency>
+  <FdsVoltage unit="V">200</FdsVoltage>
+  <PdcVoltage unit="V">200</PdcVoltage>
+  <PolarizationTime unit="s">20000</PolarizationTime>
+  <DepolarizationTime unit="s">10</DepolarizationTime>
+  <MeasurementStartDelay unit="s">NaN</MeasurementStartDelay>
+  <MeasurementStartMaximumCurrent unit="A">NaN</MeasurementStartMaximumCurrent>
+  <PerformPreMeasurementChecks>true</PerformPreMeasurementChecks>
+  <PreMeasurementCheckStatus>PassedWithWarnings</PreMeasurementCheckStatus>
+  <PreMeasurementCheckResultsSerialized>NoiseAndCapacitance.CheckNoiseCh1.TD|CH1|77.3835505567488||%|Warning#NoiseAndCapacitance.CheckCapacitanceCh1.Cap|CH1|-1.14317175172724E-07|&gt;= 1|F|Warning#NoiseAndCapacitance.CheckLossesCh1.TD|CH1|-242947.330069551|&lt;= 100|%|Pass#InputOverloadPrevention.CheckInputCurrentCh1|CH1|-0.143655199080707|&lt;= 0.05|A|Pass#DPCandAPC.CheckDepolarizationCurrent|CH1|8.32737095744069E-11|&lt; 2|A|Pass#DPCandAPC.CheckSignalToNoiseRatio|CH1|242.0877|&gt;= 10||Pass#OverloadDetection.CheckForOverloadCh1|CH1|1000||Hz|Pass</PreMeasurementCheckResultsSerialized>
+  <NoiseSuppression>Default</NoiseSuppression>
+  <DefaultPdcNoiseFilter>None</DefaultPdcNoiseFilter>
+  <CustomFrequencyPointsSerialized />
+  <CalculatedPointsPerDecade>0</CalculatedPointsPerDecade>
+  <AssetWithScreenElectrode>None</AssetWithScreenElectrode>
+  <EpsilonR>2.2</EpsilonR>
+  <InsulationMediumId>PressboardOil</InsulationMediumId>
+  <TestSetSerialNumber>FD587X</TestSetSerialNumber>
+  <TestSetHardwareVersion>1</TestSetHardwareVersion>
+  <TestSetFirmwareVersion>112</TestSetFirmwareVersion>
+  <MeasurementStartTime>2019-09-29T14:36:43</MeasurementStartTime>
+  <ActualMeasurementTime>60443997302</ActualMeasurementTime>
+  <MeasurementErrors>0</MeasurementErrors>
+  <MoistureAnalysisStatus>0</MoistureAnalysisStatus>
+  <AutomaticAssessment>
+    <IsActive>false</IsActive>
+  </AutomaticAssessment>
+  <Measurements>
+    <DRAMeasurement>
+      <Assessment>Unknown</Assessment>
+      <ManualAssessment>Unknown</ManualAssessment>
+      <HasAssessment>false</HasAssessment>
+      <ManualAssessmentActive>true</ManualAssessmentActive>
+      <ResultState>All</ResultState>
+      <AggregatedAssessmentResults />
+      <LastAutomaticAssessment>Unknown</LastAutomaticAssessment>
+      <MeasuredDate>2019-09-29T08:05:58</MeasuredDate>
+      <UniqueMeasurementDataId>cc80ad09-dbd9-4b0c-8525-25dd4b5ceb49</UniqueMeasurementDataId>
+      <Name>CHL</Name>
+      <IsCopy>false</IsCopy>
+      <MetaData>
+  &lt;ReferenceCurveColor&gt;#FFFFD700&lt;/ReferenceCurveColor&gt;
+</MetaData>
+      <IsEnabled>true</IsEnabled>
+      <FrequencySweepSerialized>AhkAAKrHD0b9Jio/i9YWrFyP40EfduXmkxbawQICaL4BP3YwP6LqpHA1QuFB4KyN0Ncf2MEC3xy+6Wu5ND/ydqjnycHeQTzg+h2I9dXBAvWRnUchFzo/syq/niOu20F4x11+i+LTwQL/6bxjQ2xAPzCsNGgwEtlBpTA7XNQG0sECn+gtlNqsRD9rQqpysr7WQaetHLtPYNDBAumeU+VOB0o/pN+4TcyX1EEAnTXuBqnNwQL8qfHSTWJQP39wUMDIrNJBZjPnN8B6ysECy8k/3lCgVD8CQlM34znRQeVXuubvbcfBAvLEWBuG91k/7TAHlyMA0EGsRfuLESvFwQLJyHlMXlhgP/8nYLu90c1BD8jrKyL9wsECaWB0ws6TZD+irwiTMd3LQcTavPvrWMHBAhekLeTG52k/Af2YQhE3ykFVvp4Aeh/AwQLTHHzMdE5wPzdASz0SqchBeymz8K9QvsECGcZlPFSHdD/mKM6CCBjHQQfanp94U73BAsdYkTkR2Hk/f8kukCxnxUEQFL4N1Mu8wQLr3zlPkUSAP9k9MuLSm8NBl8y2A1mtvMECexSuR+F6hD+wAqrUfIDBQbVRlVhZ37zBAqQkvhVlyIk/PCqPYOk/vkEwomXCSb68wQKXeC3RszqQP5cQIU/4ILlBIxEFnAwuvMEC/DqY33VulD8e3iZ6T+ezQZSKXbT0y7rBAgN7+3LCuJk/PEGqzF0qrkG2WC+WS6S4wQJ07KBO3DCgP0V9Lang36VBapcr2k3rtcECSCWQ/xFipD/npjIx4KGeQfMj6uel6bLBAnnQhUspqak/vTecpV7VlEGB9iBQT9evwQKJpPjDCiewP6cKt2qOwYtBGQxo41ZRqsEC2YoKo7VVtD9LUnW4zjWCQVjS91PSeqXBApqZmZmZmbk/m1UDjnudd0Fz1D8gqmGhwQIAAADAiZPLPwAAAIC7/1VBAAAAANOakMEBAAAAIPa03T8AAAAAGZE0QQAAAOCYGn/BAQAAAAAAAPA/AAAAoI3WE0EAAAAgoPxswQEAAADgnjwBQAAAAOBx5PNAAAAA4Ef5WsEBAAAAwBmREkAAAADge//UQAAAAMAuFUnBAQAAAAAAACRAAAAAIAxQuEAAAAAA+k83wQEAAAAAAAA0QAAAAMAy/KFAAAAAYF9VJ8EBAAAAAAAAREAAAADA7WWOQAAAACCaWhfBAQAAAAAAgFFAAAAAIEBigEAAAACg87UKwQEAAAAAAIBbQAAAAGCl4nRAAAAAABICAcEBAAAAQArHa0AAAACgvjxmQAAAAKAS2/DAAQAAAEDh6ntAAAAAYJwpWUAAAACATsrgwAEAAAAAAECPQAAAAAB4/EpAAAAAACcKzsAB</FrequencySweepSerialized>
+      <PolarizationSweepSerialized>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</PolarizationSweepSerialized>
+      <DepolarizationSweepSerialized />
+      <Channel>CH1</Channel>
+      <Capacitance>HL</Capacitance>
+      <Temperature unit="C">36</Temperature>
+      <MoistureCalculated unit="%">1.2</MoistureCalculated>
+      <CompensationOfAgingByproducts>true</CompensationOfAgingByproducts>
+      <UseAssetSpecificGeometryLimits>true</UseAssetSpecificGeometryLimits>
+      <Barriers unit="%">12</Barriers>
+      <Spacers unit="%">30</Spacers>
+      <Conductivity>3.8904514499428045E-12</Conductivity>
+      <AssessmentAutoParameters>15</AssessmentAutoParameters>
+      <MoistureAnalysisStatus>3</MoistureAnalysisStatus>
+    </DRAMeasurement>
+  </Measurements>
+</tDRATest>
